@@ -1,0 +1,26 @@
+{
+  "engines": {
+    "node": "8"
+  },
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "firebase-admin": "~7.0.0",
+    "firebase-functions": "^2.2.0",
+    "nuxt": "^2.3.4",
+    "vue-scrollto": "^2.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "private": true
+}

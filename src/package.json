@@ -1,0 +1,21 @@
+{
+  "name": "arisahirata",
+  "version": "1.0.0",
+  "description": "My super-excellent Nuxt.js project",
+  "author": "“arisa-hirata”",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.3.4",
+    "vue-scrollto": "^2.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
