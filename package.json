@@ -3,9 +3,10 @@
     "version": "1.0.0",
     "scripts": {
       "clean": "mkdir -p public && rm -rf public/*",
-      "cp:static": "cp -R functions/nuxt/dist/client public && cp -R src/static/* public",
+      "cp:static": "cp -R functions/nuxt/dist/client/ public && cp -R src/static/* public",
       "setup": "yarn clean && yarn cp:static",
       "serve": "yarn setup && sudo firebase serve",
       "deploy": "yarn setup && firebase deploy"
-    }
+    },
+    "license": "ISC"
 }
