@@ -11,7 +11,7 @@
 
         <div class="desc">
           <h3>
-            Hello, I'm
+            Hello, I am
             <span style="color: #5db68c;">Arisa</span>.
           </h3>
           <p>I am a Front-end Developer & UI/UX Designer based in Vancouver. I was born and raised in Japan and moved to Vancouver in 2017.</p>
