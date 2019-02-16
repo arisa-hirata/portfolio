@@ -1,8 +1,16 @@
 <template>
   <section id="about" class="container">
     <div class="content">
-      <h2 class="title">About</h2>
-      <hr class="title_border">
+      <h2 class="title">ABOUT</h2>
+
+      <div class="border-container">
+        <div class="border1">
+          <hr class="title_border">
+        </div>
+        <div class="border2">
+          <hr class="title_border2">
+        </div>
+      </div>
 
       <div class="about_container">
         <div class="img_container">
@@ -17,7 +25,7 @@
           <p>I am a Front-end Developer & UI/UX Designer based in Vancouver. I was born and raised in Japan and moved to Vancouver in 2017.</p>
           <p>I am passionate about converting issues and elevate to user-friendly interfaces to the next level. Also, I am actively seeking out to learn new technologies and current industry trends and improvements. This insatiable ambition gives me the advantage of staying ahead of the other competitors.</p>
 
-          <p>When I'm not working on coding or desgn, I enjoy eating a lot, sleeping well, dreaming to travel all over the world, addicting anime & manga, and watching baby emperor penguins' video and photos.</p>
+          <p>When I'm not working on coding or desgn, I enjoy eating a lot, sleeping well, dreaming to travel all over the world, addicted anime & manga, and watching baby emperor penguins' video and photos.</p>
         </div>
       </div>
 
@@ -61,8 +69,7 @@ export default {};
 <style scoped>
 .container {
   width: 100vw;
-  height: 100vh;
-  color: #575754;
+  height: 100%;
   background-color: #f4f4f4;
 }
 
@@ -74,36 +81,61 @@ export default {};
 }
 
 .title {
-  font-size: 2.5em;
+  font-size: 3.5em;
   font-weight: 700;
-  padding-top: 10%;
+  padding-top: 8%;
   margin-top: 0;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.border1 {
+  background-color: aqua;
+  width: 20%;
+}
+
+.border2 {
+  background-color: #5db68c;
+  width: 80%;
 }
 
 .title_border {
-  border: 2px solid #242e49;
-  width: 80px;
-  margin-top: -20px;
+  border: 6px solid #fbf7c6;
+  margin-top: -30px;
+}
+
+.title_border2 {
+  border: 2px solid #e5e6e5;
+  margin-top: -26px;
+}
+
+.border-container {
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: pink; */
 }
 
 .about_container {
   display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
 }
 
 .img_container {
   /* background-color: aquamarine; */
   min-width: 300px;
+  text-align: left;
 }
 
 .profile_img {
-  width: 70%;
-  margin: 10px;
-  border: 10px solid #fff;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  box-shadow: 1px 1px 2px #e6e6e6;
-  cursor: default;
+  width: 90%;
+  margin-top: 10%;
+  border-radius: 3px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .desc {
@@ -113,7 +145,7 @@ export default {};
 }
 
 .desc h3 {
-  font-size: 1.3em;
+  font-size: 2em;
 }
 
 .desc p {
@@ -122,7 +154,7 @@ export default {};
 }
 
 .skills {
-  font-size: 1.5em;
+  font-size: 1.8em;
   color: #5db68c;
 }
 
@@ -139,6 +171,7 @@ export default {};
   border-radius: 8px;
   box-shadow: 0px 2px 8px lightgrey;
   padding: 10px 0;
+  margin-bottom: 70px;
 }
 
 .skills_container div {
@@ -154,6 +187,11 @@ export default {};
     display: flex;
     flex-direction: column;
   }
+
+  .img_container {
+    text-align: center;
+  }
+
   .skills_container {
     margin-bottom: 70px;
   }

@@ -2,8 +2,11 @@
   <section id="home">
     <div id="bg">
       <div class="title">
-        <h1>Hello I'm Arisa Hirata.</h1>
-        <h1>I'm a Front-end Developer & UI/UX Designer.</h1>
+        <h1 class="primary">
+          Hello, I'm
+          <span style="color: #fbf7c6;font-weight:500;">Arisa Hirata</span>.
+        </h1>
+        <h1 class="secondly">Front-End Developer & UI/UX Designer.</h1>
         <!-- <div class="btn">View my work</div> -->
         <a href="#" v-scroll-to="'#about'" class="btn">View my work</a>
       </div>
@@ -26,56 +29,35 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #fbf7c6;
-  /* background: linear-gradient(-45deg, #bfd8d2, #fedcd2, #bfd8d2, #dcb239);
-  background-size: 400% 400%;
-  -webkit-animation: Gradient 15s ease infinite;
-  -moz-animation: Gradient 15s ease infinite;
-  animation: Gradient 15s ease infinite; */
+  background-color: #575754;
 }
-
-/* @-webkit-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@-moz-keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes Gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-} */
 
 .title {
   text-align: center;
+  font-weight: lighter;
   margin-top: 300px;
-  color: #df744a;
-  font-weight: 100;
-  font-size: 2vw;
+  color: white;
+  line-height: 2em;
+  text-shadow: 1px 2px 10px rgba(50, 50, 50, 0.7);
+  width: 100%;
+  height: 500px;
+  /* font-size: 2vw; */
+}
+
+.primary {
+  font-size: 4em;
+  margin-left: 5%;
+  text-align: left;
+  font-weight: lighter;
+  letter-spacing: 0.1em;
+}
+
+.secondly {
+  font-size: 2em;
+  margin-left: 5%;
+  text-align: left;
+  font-weight: lighter;
+  letter-spacing: 0.2em;
 }
 
 .btn {
@@ -84,15 +66,17 @@ section {
   display: inline-block;
   padding: 0.5em 1em;
   text-decoration: none;
-  color: #5db68c;
-  border: solid 2px #5db68c;
+  color: white;
+  border: solid 2px white;
   border-radius: 10px;
   transition: 0.4s;
   cursor: pointer;
+  text-align: center;
 }
 
 .btn:hover {
   background: #5db68c;
+  border: solid 2px#5db68c;
   color: white;
 }
 </style>

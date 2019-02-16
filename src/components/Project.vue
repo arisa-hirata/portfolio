@@ -1,7 +1,19 @@
 <template>
   <section id="project" class="container">
-    <h2 class="title">Projects</h2>
-    <hr class="title_border">
+    <div class="content">
+      <h2 class="title">
+        <span style="font-weight: 700;font-size: 1.3em;">PROJECTS</span>
+      </h2>
+      <!-- <hr class="title_border"> -->
+      <div class="border-container">
+        <div class="border1">
+          <hr class="title_border">
+        </div>
+        <div class="border2">
+          <hr class="title_border2">
+        </div>
+      </div>
+    </div>
 
     <div id="app">
       <div class="title-container">
@@ -15,17 +27,17 @@
             class="filter"
             v-bind:class="{ active: currentFilter === 'Developlent' }"
             v-on:click="setFilter('Developlent')"
-          >Developlent</span>
+          >DEVELOPMENT</span>
           <span
             class="filter"
             v-bind:class="{ active: currentFilter === 'UI/UX Design' }"
             v-on:click="setFilter('UI/UX Design')"
-          >UI/UX Design</span>
+          >UI/UX DESIGN</span>
           <span
             class="filter"
             v-bind:class="{ active: currentFilter === 'Graphic Design' }"
             v-on:click="setFilter('Graphic Design')"
-          >Graphic Design</span>
+          >GRAPHIC DESIGN</span>
         </div>
       </div>
 
@@ -122,23 +134,55 @@ export default {
 
 
 <style scoped>
+.container {
+  width: 100vw;
+  height: 100%;
+}
+
+.content {
+  width: 90%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .title {
-  font-size: 2.5em;
-  font-weight: 700;
-  padding-top: 10%;
-  margin: 0;
+  padding-top: 8%;
+  margin-top: 0;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.border1 {
+  background-color: aqua;
+  width: 20%;
+}
+
+.border2 {
+  background-color: #5db68c;
+  width: 80%;
 }
 
 .title_border {
-  border: 2px solid #242e49;
-  width: 80px;
-  margin-top: 10px;
+  border: 6px solid #fbf7c6;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
 }
 
+.title_border2 {
+  border: 2px solid #e5e6e5;
+  margin-top: -16px;
+}
+
+.border-container {
+  display: flex;
+  width: 100%;
+}
 /* filter */
 
 #id {
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .title-container {
@@ -158,20 +202,23 @@ export default {
 }
 
 .filters {
-  margin: 3% 0 2% 0;
+  margin: 5% 0 2% 0;
 }
 
 .filter {
-  font-family: arial;
-  padding: 6px 6px;
+  padding: 10px 15px;
   cursor: pointer;
   border-radius: 6px;
   transition: all 0.35s;
+  letter-spacing: 0.1em;
+  font-size: 1.3em;
+  margin: 10px;
 }
 
 .filter.active {
   box-shadow: 0px 1px 3px 0px #00000026;
-  background-color: #fbf7c6;
+  background-color: #5db68c;
+  color: white;
 }
 
 .filter:hover {
@@ -179,7 +226,6 @@ export default {
 }
 
 .projects {
-  margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
