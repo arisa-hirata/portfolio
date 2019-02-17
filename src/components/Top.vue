@@ -76,7 +76,35 @@ section {
 
 .btn:hover {
   background: #5db68c;
-  border: solid 2px#5db68c;
+  border: solid 2px #5db68c;
   color: white;
+}
+
+@media screen and (max-width: 834px) and (orientation: portrait) {
+  .primary {
+    font-size: 7vw;
+    letter-spacing: 0.1em;
+  }
+
+  .secondly {
+    font-size: 3vw;
+    letter-spacing: 0.2em;
+  }
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .btn {
+    margin-top: 10%;
+    font-size: 1em;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+    text-align: center;
+  }
 }
 </style>

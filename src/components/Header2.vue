@@ -2,9 +2,9 @@
   <header id="top-head" class="header">
     <div class="inner">
       <div id="mobile-head">
-        <a href>
-          <img src class="logo">
-        </a>
+        <nuxt-link to="/">
+          <img src="/img/logo.png" class="logo">
+        </nuxt-link>
         <div id="nav-toggle">
           <div>
             <span></span>
@@ -31,13 +31,44 @@
         </ul>
       </nav>
     </div>
+
+    <!-- Hamburger -->
+    <div class="burger_menu">
+      <a href="#" class="burger_logo">
+        <img src="/img/logo.png" style="width:40px;">
+      </a>
+      <input id="burger" type="checkbox">
+      
+      <label for="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <nav>
+        <ul>
+          <li>
+            <nuxt-link to="/#home">&nbsp;&nbsp;Home&nbsp;&nbsp;</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/#about">&nbsp;&nbsp;About&nbsp;&nbsp;</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/#project">&nbsp;&nbsp;Projects&nbsp;&nbsp;</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link to="/#contact">&nbsp;&nbsp;Contact&nbsp;&nbsp;</nuxt-link>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 </template>
 
 
 <style>
 header {
-  z-index: 999;
+  z-index: 900;
 }
 </style>
 
@@ -46,6 +77,10 @@ header {
 <style scoped>
 a {
   text-decoration: none;
+}
+
+.inner {
+  display: block;
 }
 
 .header {
@@ -58,9 +93,11 @@ a {
 }
 
 .logo {
-  width: 15%;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 7px;
+  left: 80px;
 }
 
 .navigation_bar {
@@ -106,6 +143,24 @@ a {
 }
 #global-nav ul li :hover {
   color: #5db68c;
+}
+
+.burger_menu {
+  display: none;
+}
+
+@media screen and (max-width: 834px) and (orientation: portrait) {
+  .header {
+    height: 50px;
+  }
+
+  .burger_menu {
+    display: block;
+  }
+
+  .inner {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 480px) and (orientation: portrait) {

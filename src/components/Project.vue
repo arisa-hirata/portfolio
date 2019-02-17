@@ -211,7 +211,7 @@ export default {
   border-radius: 6px;
   transition: all 0.35s;
   letter-spacing: 0.1em;
-  font-size: 1.3em;
+  font-size: 1em;
   margin: 10px;
 }
 
@@ -363,5 +363,20 @@ export default {
   border-bottom-right-radius: 5px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
+}
+
+@media screen and (max-width: 834px) and (orientation: portrait) {
+  .filter {
+    font-size: 1em;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+  .filter {
+    font-size: 3vw;
+    margin: 0;
+    padding: 10px 5px;
+  }
 }
 </style>
