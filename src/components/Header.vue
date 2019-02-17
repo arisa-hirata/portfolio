@@ -3,7 +3,7 @@
     <div class="inner">
       <div id="mobile-head">
         <a href>
-          <img src class="logo">
+          <img src="/img/logo.png" class="logo">
         </a>
         <div id="nav-toggle">
           <div>
@@ -58,9 +58,11 @@ a {
 }
 
 .logo {
-  width: 15%;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 7px;
+  left: 80px;
 }
 
 .navigation_bar {
