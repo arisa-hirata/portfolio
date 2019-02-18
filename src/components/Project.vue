@@ -271,7 +271,7 @@ export default {
 
 .skill {
   color: #575754;
-  z-index: 999;
+  z-index: 900;
   margin-top: 30px;
   font-size: 1.1em;
   font-weight: lighter;

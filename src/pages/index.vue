@@ -30,7 +30,4 @@ export default {
 </script>
 
 <style>
-/* .header2 {
-  display: none;
-} */
 </style>

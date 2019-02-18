@@ -66,6 +66,10 @@
 </template>
 
 <style scoped>
+/* .heaer2 {
+  display: block;
+} */
+
 .container {
   text-align: center;
   margin-right: auto;

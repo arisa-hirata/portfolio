@@ -84,11 +84,13 @@ section {
   .primary {
     font-size: 7vw;
     letter-spacing: 0.1em;
+    text-align: center;
   }
 
   .secondly {
     font-size: 3vw;
     letter-spacing: 0.2em;
+    text-align: center;
   }
 }
 
