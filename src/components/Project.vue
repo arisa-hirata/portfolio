@@ -51,7 +51,7 @@
           <nuxt-link :to="project.link" style="text-decoration: none;">
             <div class="project-image-wrapper">
               <img class="project-image" v-bind:src="project.image">
-              <div class="gradient-overlay"></div>
+
               <div class="circle">
                 <span class="project-title">{{project.title}}</span>
               </div>
@@ -74,7 +74,7 @@ export default {
       projects: [
         {
           title: "Pollways",
-          image: "/img/Filter_Pollways.jpg",
+          image: "/img/Filter_Pollways.png",
           categories: ["Developlent"],
           skill: "ReactNative + Firebase",
           link: "/Pollways",
@@ -82,7 +82,7 @@ export default {
         },
         {
           title: "Baby Animal Farm",
-          image: "/img/Filter_BabyAnimalFarm.jpg",
+          image: "/img/Filter_BabyAnimalFarm.png",
           categories: ["Developlent", "UI/UX Design", "Graphic Design"],
           skill: "Pure JavaScript",
           link: "/BabyAnimalFarm",
@@ -90,7 +90,7 @@ export default {
         },
         {
           title: "Easter Ecard",
-          image: "/img/Filter_EasterEcard.jpg",
+          image: "/img/Filter_EasterEcard.png",
           categories: ["Developlent", "UI/UX Design", "Graphic Design"],
           skill: "Pure Javascript",
           link: "/Ecard",
@@ -98,7 +98,7 @@ export default {
         },
         {
           title: "NiceCream Factory",
-          image: "/img/Filter_NiceCream.jpg",
+          image: "/img/Filter_NiceCream.png",
           categories: ["Developlent", "UI/UX Design", "Graphic Design"],
           skill: "HTML + CSS + jQuery",
           link: "/NiceCreamFactory",
@@ -106,7 +106,7 @@ export default {
         },
         {
           title: "JAJA",
-          image: "/img/Filter_JAJA.jpg",
+          image: "/img/Filter_JAJA.png",
           categories: ["Developlent"],
           skill: "Vue + Firebase",
           link: "/",
@@ -330,31 +330,6 @@ export default {
 
 .project-image-wrapper {
   position: relative;
-}
-
-.gradient-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 150px;
-  opacity: 0.09;
-  background: linear-gradient(
-      to bottom,
-      rgba(0, 210, 247, 0.65) 0%,
-      rgba(0, 210, 247, 0.64) 1%,
-      rgba(0, 0, 0, 0) 100%
-    ),
-    linear-gradient(
-      to top,
-      rgba(247, 0, 156, 0.65) 0%,
-      rgba(247, 0, 156, 0.64) 1%,
-      rgba(0, 0, 0, 0) 100%
-    );
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
 }
 
 .project-image {
