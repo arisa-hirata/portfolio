@@ -1,17 +1,17 @@
 <template>
   <div>
-    <Header2/>
+    <!-- <Header2/> -->
     <nuxt/>
   </div>
 </template>
 
-<script>
+// <script>
 import Header2 from "@/components/Header2";
 
 export default {
-  components: {
-    Header2
-  }
+  // components: {
+  //   Header2
+  // }
 };
 </script>
 

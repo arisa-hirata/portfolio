@@ -78,11 +78,9 @@ header {
 a {
   text-decoration: none;
 }
-
 .inner {
   display: block;
 }
-
 .header2 {
   height: 80px;
   width: 100%;
@@ -92,7 +90,6 @@ a {
   left: 0;
   display: block;
 }
-
 .logo {
   width: 70px;
   height: 70px;
@@ -100,18 +97,15 @@ a {
   top: 7px;
   left: 80px;
 }
-
 .navigation_bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-
 .navigation_bar li {
   float: left;
 }
-
 .navigation_bar li a {
   display: inline-block;
   text-align: center;
@@ -122,13 +116,11 @@ a {
   font-family: "Oxygen", sans-serif;
   font-weight: 100;
 }
-
 #global-nav ul {
   position: absolute;
   right: 5%;
   top: -5px;
 }
-
 #global-nav ul li :after {
   position: relative;
   content: "";
@@ -145,11 +137,9 @@ a {
 #global-nav ul li :hover {
   color: #5db68c;
 }
-
 .burger_menu {
   display: none;
 }
-
 @media screen and (max-width: 834px) and (orientation: portrait) {
   .header2 {
     height: 50px;
@@ -172,7 +162,6 @@ a {
     bottom: -12px;
   }
 }
-
 @media screen and (max-width: 480px) and (orientation: portrait) {
   #global-nav ul li a {
     font-size: 0.5em;
@@ -180,37 +169,29 @@ a {
   .burger_menu {
     display: block;
   }
-
   .inner {
     display: none;
   }
-
   a {
     text-decoration: none;
     transition: color 0.3s ease;
     color: #575754;
   }
-
   a:hover {
     color: #5db68c;
   }
-
   .logo {
     left: 30px;
   }
-
   #menuToggle {
     display: block;
     position: fixed;
     top: 15px;
     right: 30px;
-
     z-index: 999;
-
     -webkit-user-select: none;
     user-select: none;
   }
-
   #menuToggle input {
     display: block;
     width: 40px;
@@ -218,56 +199,42 @@ a {
     position: absolute;
     top: -7px;
     left: -5px;
-
     cursor: pointer;
-
     opacity: 0;
     z-index: 2;
-
     -webkit-touch-callout: none;
   }
-
   #menuToggle span {
     display: block;
     width: 33px;
     height: 4px;
     margin-bottom: 5px;
     position: relative;
-
     background: #cdcdcd;
     border-radius: 3px;
-
     z-index: 1;
-
     transform-origin: 4px 0px;
-
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
       background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
-
   #menuToggle span:first-child {
     transform-origin: 0% 0%;
   }
-
   #menuToggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
   }
-
   #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
   }
-
   #menuToggle input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
-
   #menuToggle input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
   }
-
   #menu {
     position: absolute;
     width: 100px;
@@ -276,22 +243,17 @@ a {
     padding: 40px;
     padding-top: 55px;
     border-radius: 3px;
-
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-
     transform-origin: 0% 0%;
     transform: translate(150%, 0);
-
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
-
   #menu li {
     padding: 10px 0;
     font-size: 1em;
   }
-
   #menuToggle input:checked ~ ul {
     transform: none;
   }

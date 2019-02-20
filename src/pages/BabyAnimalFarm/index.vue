@@ -1,5 +1,6 @@
 <template>
   <section class="container">
+    <Header2/>
     <h2 class="title">Baby Animal Farm</h2>
     <div class="border-container">
       <div class="border1">
@@ -134,6 +135,16 @@
   </section>
 </template>
 
+<script>
+import Header2 from "@/components/Header2";
+
+export default {
+  components: {
+    Header2
+  }
+};
+</script>
+
 <style scoped>
 .container {
   text-align: center;
@@ -220,6 +231,8 @@ p {
   height: 100%;
   padding-top: 1%;
   line-height: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .details {
@@ -299,6 +312,10 @@ p {
 
   .box {
     width: 100%;
+  }
+
+  .detail_container {
+    height: 400px;
   }
 
   .tutorial {

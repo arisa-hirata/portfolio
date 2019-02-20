@@ -1,5 +1,6 @@
 <template>
   <section class="container">
+    <Header2/>
     <h2>Easter Ecard</h2>
 
     <div class="content">
@@ -50,6 +51,16 @@
     </footer>
   </section>
 </template>
+
+<script>
+import Header2 from "@/components/Header2";
+
+export default {
+  components: {
+    Header2
+  }
+};
+</script>
 
 <style scoped>
 .container {
