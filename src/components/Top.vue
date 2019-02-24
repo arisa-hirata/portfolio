@@ -34,13 +34,18 @@ section {
 
 .title {
   text-align: center;
-  font-weight: lighter;
-  margin-top: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
   color: white;
   line-height: 2em;
   text-shadow: 1px 2px 10px rgba(50, 50, 50, 0.7);
   width: 100%;
-  height: 500px;
+  height: 30%;
+  /* background-color: pink; */
   /* font-size: 2vw; */
 }
 
@@ -50,6 +55,20 @@ section {
   text-align: left;
   font-weight: lighter;
   letter-spacing: 0.1em;
+  animation: primary 2s forwards;
+  opacity: 0;
+  position: relative;
+}
+
+@keyframes primary {
+  0% {
+    opacity: 0;
+    top: -500px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
 }
 
 .secondly {
@@ -58,6 +77,25 @@ section {
   text-align: left;
   font-weight: lighter;
   letter-spacing: 0.2em;
+  animation: secondly 2s forwards;
+  opacity: 0;
+  position: relative;
+  animation-delay: 0.4s;
+}
+
+@keyframes secondly {
+  0% {
+    opacity: 0;
+    top: -100px;
+  }
+  50% {
+    opacity: 0;
+    top: -50px;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+  }
 }
 
 .btn {
@@ -72,6 +110,20 @@ section {
   transition: 0.4s;
   cursor: pointer;
   text-align: center;
+  position: relative;
+  animation: btn 2s forwards;
+  opacity: 0;
+  animation-delay: 1.7s;
+}
+
+@keyframes btn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .btn:hover {

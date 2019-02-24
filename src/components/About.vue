@@ -1,9 +1,9 @@
 <template>
   <section id="about" class="container">
     <div class="content">
-      <h2 class="title">ABOUT</h2>
+      <h2 class="title" v-scroll="handleScroll">ABOUT</h2>
 
-      <div class="border-container">
+      <div class="border-container" v-scroll="handleScroll_border">
         <div class="border1">
           <hr class="title_border">
         </div>
@@ -12,7 +12,7 @@
         </div>
       </div>
 
-      <div class="about_container">
+      <div class="about_container" v-scroll="handleScroll2">
         <div class="img_container">
           <img src="/img/Profile.jpg" alt="Profile" class="profile_img">
         </div>
@@ -25,12 +25,12 @@
           <p>I am a Front-end Developer & UI/UX Designer based in Vancouver. I was born and raised in Japan and moved to Vancouver in 2017.</p>
           <p>I am passionate about converting issues and elevating to user-friendly interfaces to the next level. Also, I am actively seeking out to learn new technologies and current industry trends and improvements. This insatiable ambition gives me the advantage of staying ahead of the other competitors.</p>
 
-          <p>When I'm not working on coding or desgn, I enjoy eating a lot, sleeping well, dreaming to travel all over the world. Also, I am addicted to anime & manga, and watching baby emperor penguin video and photos.</p>
+          <p>When I'm not working on coding or design, I enjoy eating a lot, sleeping well, dreaming to travel all over the world. Also, I am addicted to anime & manga, and watching baby emperor penguin video and photos.</p>
         </div>
       </div>
 
-      <h3 class="skills">What I Use</h3>
-      <div class="skills_container">
+      <h3 class="skills" v-scroll="handleScroll2">What I Use</h3>
+      <div class="skills_container" v-scroll="handleScroll2">
         <div>
           <p>HTML5</p>
           <p>CSS3</p>
@@ -61,9 +61,42 @@
 </template>
 
 <script>
-export default {};
-</script>
+export default {
+  methods: {
+    handleScroll: function(evt, el) {
+      console.log(window.scrollY);
+      if (window.scrollY > 100) {
+        el.setAttribute(
+          "style",
+          "opacity: 1; transform: translate3d(100px, 0px, 0)"
+        );
+      }
+      // return window.scrollY > 100;
+    },
+    handleScroll_border: function(evt, el) {
+      console.log(window.scrollY);
+      if (window.scrollY > 50) {
+        el.setAttribute(
+          "style",
+          "opacity: 1; transform: translate3d(1000px, 0px, 0); width:100%"
+        );
+      }
+      // return window.scrollY > 100;
+    },
 
+    handleScroll2: function(evt, el) {
+      console.log(window.scrollY);
+      if (window.scrollY > 50) {
+        el.setAttribute(
+          "style",
+          "opacity: 1; transform: translate3d(0, -100px, 0);"
+        );
+      }
+      // return window.scrollY > 100;
+    }
+  }
+};
+</script>
 
 
 <style scoped>
@@ -80,6 +113,10 @@ export default {};
   margin-left: auto;
 }
 
+.title_animation {
+  margin-left: -100px;
+}
+
 .title {
   font-size: 3.5em;
   font-weight: 700;
@@ -87,6 +124,9 @@ export default {};
   margin-top: 0;
   letter-spacing: 0.1em;
   text-align: left;
+  opacity: 0;
+  transition: 1s all cubic-bezier(0.39, 0.575, 0.565, 1);
+  margin-left: -100px;
 }
 
 .border1 {
@@ -111,9 +151,12 @@ export default {};
 
 .border-container {
   display: flex;
-  width: 100%;
+  width: 0;
   margin-left: auto;
   margin-right: auto;
+  opacity: 0;
+  transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+  margin-left: -1000px;
   /* background-color: pink; */
 }
 
@@ -122,7 +165,10 @@ export default {};
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1%;
+  margin-top: 120px;
+  opacity: 0;
+  transition: 1s all cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition-delay: 0.7s;
 }
 
 .img_container {
@@ -156,6 +202,9 @@ export default {};
 .skills {
   font-size: 1.8em;
   color: #5db68c;
+  opacity: 0;
+  transition: 1s all cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition-delay: 1.2s;
 }
 
 .skills_container {
@@ -172,11 +221,18 @@ export default {};
   box-shadow: 0px 2px 8px lightgrey;
   padding: 10px 0;
   margin-bottom: 70px;
+  opacity: 0;
+  transition: 1s all cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition-delay: 1.5s;
 }
 
 .skills_container div {
   width: 20%;
   min-width: 140px;
+}
+
+.skills_container div p {
+  line-height: 1em;
 }
 
 @media screen and (max-width: 834px) and (orientation: portrait) {

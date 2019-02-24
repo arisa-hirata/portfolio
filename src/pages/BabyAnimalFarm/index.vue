@@ -1,7 +1,7 @@
 <template>
-  <section class="container">
+  <section class="project_container">
     <Header2/>
-    <h2 class="title">Baby Animal Farm</h2>
+    <h2 class="project_title">Baby Animal Farm</h2>
     <div class="border-container">
       <div class="border1">
         <hr class="title_border">
@@ -11,40 +11,47 @@
       </div>
     </div>
 
-    <div class="content">
+    <div class="project_content">
       <div class="box">
         <img src="/img/Filter_BabyAnimalFarm.png" alt="Pollways" class="main_img">
       </div>
       <div class="box">
         <div class="detail_container">
           <div class="details">
-            <p>
-              <b>Role:</b> Lead Developer / UI&UX Designer / Character Designer
-            </p>
-            <p>
-              <b>Client:</b> BCIT Term2
-            </p>
-            <p>
-              <b>Timeline:</b> March - May 2018
-            </p>
-            <p>
-              <b>Skills:</b> HTML5 / CSS3 / JavaScript /SVG Animation / Adobe Illustrator
-            </p>
-
-            <div class="btn_container">
-              <a href="http://babyanimalfarm.arisahirata.ca/arisa/top/top.html">
-                <div class="btn">Play</div>
-              </a>
-              <a href="https://github.com/arisa-hirata/baby_animal_farm">
-                <div class="btn">Github</div>
-              </a>
+            <div class="details_left">
+              <p>
+                <b>Role:</b>
+              </p>
+              <p style="margin-top: 44px;">
+                <b>Client:</b>
+              </p>
+              <p>
+                <b>Timeline:</b>
+              </p>
+              <p>
+                <b>Skills:</b>
+              </p>
             </div>
+            <div class="details_right">
+              <p>Lead Developer / UI&UX Designer / Character Designer</p>
+              <p>BCIT Term2</p>
+              <p>March - May 2018</p>
+              <p>HTML5 / CSS3 / JavaScript /SVG Animation / Adobe Illustrator</p>
+            </div>
+          </div>
+          <div class="btn_container">
+            <a href="https://arisa-hirata.github.io/babyanimalfarm/top/top.html">
+              <div class="project_btn">Play</div>
+            </a>
+            <a href="https://github.com/arisa-hirata/baby_animal_farm">
+              <div class="project_btn">Github</div>
+            </a>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="content">
+    <div class="project_content">
       <div class="box">
         <img src="/img/BabyAnimalFarm/convo.png" alt="BabyAnimalFarm" class="main_img">
         <p style="text-align:center; margin-top:5%;">Conversation Scene</p>
@@ -52,11 +59,11 @@
       <div class="box">
         <div class="para">
           <div>
-            <h3>
+            <h3 class="project_subtitle">
               What is
               <span style="color: #5db68c; text-align:center">Baby Animal Farm</span>?
             </h3>
-            <hr>
+            <hr class="project_border">
 
             <p>
               This web application is a childrens’ e-book for ages 7 - 10.
@@ -70,7 +77,7 @@
       </div>
     </div>
 
-    <div class="content">
+    <div class="project_content">
       <div class="box">
         <img src="/img/BabyAnimalFarm/quiz.png" alt="BabyAnimalFarm" class="main_img">
         <p style="text-align:center; margin-top:5%;">Quiz Scene</p>
@@ -78,10 +85,10 @@
       <div class="box">
         <div class="para">
           <div>
-            <h3>
+            <h3 class="project_subtitle">
               <span style="color: #5db68c;">C</span>HALLENGES
             </h3>
-            <hr>
+            <hr class="project_border">
 
             <p>
               Baby Animal Farm was the combined final project for 2 courses in my second term at BCIT.
@@ -92,11 +99,11 @@
       </div>
     </div>
 
-    <h3 style="margin-top:10%;">
+    <h3 class="project_subtitle" style="margin-top:10%;">
       <span style="color: #5db68c;">P</span>ROCESS
     </h3>
-    <hr>
-    <div class="content">
+    <hr class="project_border">
+    <div class="project_content">
       <div class="box">
         <img
           src="/img/BabyAnimalFarm/Logo&Color.png"
@@ -125,204 +132,24 @@
         <p style="text-align:center; margin-top:5%;">User Persona</p>
       </div>
     </div>
-
-    <footer class="footer">
-      <p class="copyright">
-        &copy; Copyright 2019
-        <span style="color:#fbf7c6;">Arisa Hirata</span>
-      </p>
-    </footer>
+    <Footer/>
   </section>
 </template>
 
 <script>
 import Header2 from "@/components/Header2";
+import Footer from "@/components/Footer";
 
 export default {
   components: {
-    Header2
+    Header2,
+    Footer
   }
 };
 </script>
 
 <style scoped>
-.container {
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  width: 90%;
-  max-width: 1200px;
-  color: #575754;
-}
-
-.title {
-  font-size: 3.5em;
-  font-weight: 700;
-  padding-top: 10%;
-  margin-top: 0;
-  letter-spacing: 0.1em;
-  text-align: left;
-}
-
-.border1 {
-  background-color: aqua;
-  width: 20%;
-}
-
-.border2 {
-  background-color: #5db68c;
-  width: 80%;
-}
-
-.title_border {
-  border: 6px solid #fbf7c6;
-  margin-top: -30px;
-}
-
-.title_border2 {
-  border: 2px solid #e5e6e5;
-  margin-top: -26px;
-}
-
-hr {
-  border: 2px solid #e5e6e5;
-  margin-top: -20px;
-}
-
-.border-container {
-  display: flex;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.content {
-  display: flex;
-  flex-direction: row;
-  margin-top: 5%;
-  justify-content: space-around;
-}
-
-.box {
-  width: 50%;
-}
-
-.desc {
-  margin-top: 0;
-}
-
-.main_img {
-  width: 90%;
-  min-width: 300px;
-}
-
-h3 {
-  font-size: 2em;
-  /* margin-top: 0; */
-}
-
 p {
   text-align: left;
-}
-
-.detail_container {
-  background-color: #f4f4f4;
-  width: 90%;
-  height: 100%;
-  padding-top: 1%;
-  line-height: 1.5em;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.details {
-  margin-top: 10%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-}
-
-.para {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.btn_container {
-  margin-top: 5%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-}
-
-.btn_container a {
-  margin: 5px;
-  text-decoration: none;
-}
-
-.btn {
-  background-color: #fbf7c6;
-  color: #575754;
-  border-radius: 7px;
-  width: 100px;
-  height: 37px;
-  padding-top: 10px;
-  font-size: 1.2em;
-  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-}
-
-.btn:hover {
-  background-color: #5db68c;
-  color: white;
-}
-
-.tutorial_container {
-  margin-top: 70px;
-  margin-bottom: 70px;
-}
-
-.tutorial_container h3 {
-  font-size: 1.5em;
-}
-
-.footer {
-  height: 50px;
-  background-color: #575754;
-  color: white;
-  width: 100vw;
-  margin-top: 0px;
-  margin-left: 0;
-  position: absolute;
-  left: 0;
-}
-
-.copyright {
-  padding-top: 5px;
-  font-weight: lighter;
-  font-size: 0.8em;
-}
-
-@media screen and (max-width: 834px) and (orientation: portrait) {
-  .content {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .box {
-    width: 100%;
-  }
-
-  .detail_container {
-    height: 400px;
-  }
-
-  .tutorial {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 480px) and (orientation: portrait) {
 }
 </style>

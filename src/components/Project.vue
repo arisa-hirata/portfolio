@@ -1,11 +1,11 @@
 <template>
   <section id="project" class="container">
     <div class="content">
-      <h2 class="title">
+      <h2 class="title" v-scroll="handleScroll">
         <span style="font-weight: 700;font-size: 1.3em;">PROJECTS</span>
       </h2>
       <!-- <hr class="title_border"> -->
-      <div class="border-container">
+      <div class="border-container" v-scroll="handleScroll_border">
         <div class="border1">
           <hr class="title_border">
         </div>
@@ -41,7 +41,7 @@
         </div>
       </div>
 
-      <transition-group class="projects" name="projects">
+      <transition-group class="projects" name="projects" v-scroll="handleScroll3">
         <div
           class="project"
           v-if="project.categories.includes(currentFilter) || currentFilter === 'ALL'"
@@ -110,7 +110,7 @@ export default {
           categories: ["Developlent"],
           skill: "Vue + Firebase",
           link: "/",
-          comingsoon: "COMING SOON!"
+          comingsoon: ""
         },
         {
           title: "Infographic",
@@ -118,7 +118,7 @@ export default {
           categories: ["Graphic Design"],
           skill: "Illustrator",
           link: "/",
-          comingsoon: "COMING SOON!"
+          comingsoon: ""
         }
       ]
     };
@@ -126,6 +126,30 @@ export default {
   methods: {
     setFilter: function(filter) {
       this.currentFilter = filter;
+    },
+    handleScroll: function(evt, el) {
+      if (window.scrollY > 1000) {
+        el.setAttribute(
+          "style",
+          "opacity: 1; transform: translate3d(100px, 0px, 0)"
+        );
+      }
+      // return window.scrollY > 100;
+    },
+    handleScroll_border: function(evt, el) {
+      if (window.scrollY > 1000) {
+        el.setAttribute(
+          "style",
+          "opacity: 1; transform: translate3d(1000px, 0px, 0); width:100%"
+        );
+      }
+      // return window.scrollY > 100;
+    },
+    handleScroll3: function(evt, el) {
+      if (window.scrollY > 1000) {
+        el.setAttribute("style", "opacity: 1; translate3d(0px, -100px, 0);");
+      }
+      // return window.scrollY > 100;
     }
   }
 };
@@ -149,8 +173,12 @@ export default {
 .title {
   padding-top: 8%;
   margin-top: 0;
+  font-weight: 700;
   letter-spacing: 0.1em;
   text-align: left;
+  opacity: 0;
+  transition: 1s all cubic-bezier(0.39, 0.575, 0.565, 1);
+  margin-left: -100px;
 }
 
 .border1 {
@@ -178,6 +206,9 @@ export default {
 .border-container {
   display: flex;
   width: 100%;
+  opacity: 0;
+  transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+  margin-left: -1000px;
 }
 /* filter */
 
@@ -233,6 +264,10 @@ export default {
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
+  opacity: 0;
+  transition: 1.5s all ease-in-out;
+  transition-delay: 0.7s;
+  margin-bottom: -100px;
 }
 
 .projects-enter {
@@ -302,13 +337,14 @@ export default {
   margin: 10px;
   box-shadow: 0px 2px 8px lightgrey;
   border-radius: 3px;
-  width: 400%;
+  width: 100%;
   max-width: 400px;
   min-width: 300px;
   height: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
+
   /* background-color: pink; */
 }
 

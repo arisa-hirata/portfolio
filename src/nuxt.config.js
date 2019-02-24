@@ -8,7 +8,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'Arisa Hirata | Front-end Developer | UI UX Designer | BCIT D3 Portfolio',
+    title: 'Arisa Hirata Front-end Developer & UI UX Designer, BCIT D3 Portfolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -45,6 +45,7 @@ module.exports = {
   */
   plugins: [
     '~/plugins/vue-scrollto',
+    '~plugins/scroll.js'
   ],
 
   /*
