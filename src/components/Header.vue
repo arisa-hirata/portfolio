@@ -3,7 +3,7 @@
     <div class="inner">
       <div id="mobile-head">
         <a href="#" v-scroll-to="'#home'">
-          <img src="/img/logo.png" class="logo">
+          <img src="/img/headerLogo.svg" class="logo">
         </a>
         <div id="nav-toggle">
           <div>
@@ -16,9 +16,9 @@
 
       <nav id="global-nav">
         <ul class="navigation_bar">
-          <li>
+          <!-- <li>
             <a href="#" v-scroll-to="'#home'">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>
-          </li>
+          </li>-->
           <li>
             <a href="#" v-scroll-to="'#about'">&nbsp;&nbsp;About&nbsp;&nbsp;</a>
           </li>
@@ -86,15 +86,16 @@ a {
 .header {
   height: 80px;
   width: 100%;
-  background-color: #575754;
+  background-color: #fff;
   position: fixed;
   top: 0;
   left: 0;
+  border-top: 4px solid #ee815c;
 }
 
 .logo {
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
   position: absolute;
   top: 7px;
   left: 80px;
@@ -117,8 +118,8 @@ a {
   padding: 35px 15px;
   text-decoration: none;
   font-size: 1em;
-  color: white;
-  font-weight: 100;
+  color: black;
+  font-weight: 700;
 }
 
 #global-nav ul {
@@ -137,11 +138,11 @@ a {
   -webkit-transition: all 0.3s ease;
 }
 #global-nav ul li :hover:after {
-  background: #fbf7c6;
+  background: #14a79c;
   bottom: -24px;
 }
 #global-nav ul li :hover {
-  color: #5db68c;
+  color: #14a79c;
 }
 
 .burger_menu {
@@ -166,7 +167,7 @@ a {
     height: 3px;
   }
   #global-nav ul li :hover:after {
-    background: #fbf7c6;
+    background: #14a79c;
     bottom: -12px;
   }
 }

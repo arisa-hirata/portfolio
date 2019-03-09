@@ -1,15 +1,11 @@
 <template>
   <section id="about" class="container">
-    <div class="content">
-      <h2 class="title" v-scroll="handleScroll">ABOUT</h2>
+    <hr class="orange_border">
 
-      <div class="border-container" v-scroll="handleScroll_border">
-        <div class="border1">
-          <hr class="title_border">
-        </div>
-        <div class="border2">
-          <hr class="title_border2">
-        </div>
+    <div class="content">
+      <div class="title_container">
+        <h2 class="content_title">About Me</h2>
+        <hr class="yellow_border">
       </div>
 
       <div class="about_container" v-scroll="handleScroll2">
@@ -17,10 +13,12 @@
           <img src="/img/Profile.jpg" alt="Profile" class="profile_img">
         </div>
 
+        <div class="vertical_line"></div>
+
         <div class="desc">
           <h3>
             Hello, I am
-            <span style="color: #5db68c;">Arisa</span>.
+            <span style="color: #14a79c;">Arisa</span>.
           </h3>
           <p>I am a Front-end Developer & UI/UX Designer based in Vancouver. I was born and raised in Japan and moved to Vancouver in 2017.</p>
           <p>I am passionate about converting issues and elevating to user-friendly interfaces to the next level. Also, I am actively seeking out to learn new technologies and current industry trends and improvements. This insatiable ambition gives me the advantage of staying ahead of the other competitors.</p>
@@ -29,9 +27,27 @@
         </div>
       </div>
 
+      <div class="orange_marker"></div>
       <h3 class="skills" v-scroll="handleScroll2">What I Use</h3>
       <div class="skills_container" v-scroll="handleScroll2">
-        <div>
+        <img src="/img/icons/html.svg" class="skill_icons" alt="html">
+        <img src="/img/icons/css.svg" class="skill_icons" alt="css3">
+        <img src="/img/icons/js.svg" class="skill_icons" alt="js">
+        <img src="/img/icons/jquery.svg" class="skill_icons" alt="jquery">
+        <img src="/img/icons/react.svg" class="skill_icons" alt="react">
+        <img src="/img/icons/redux.svg" class="skill_icons" alt="redux">
+        <img src="/img/icons/vue.svg" class="skill_icons" alt="vue">
+        <img src="/img/icons/nuxt.svg" class="skill_icons" alt="nuxt">
+        <img src="/img/icons/firebase.svg" class="skill_icons" alt="firebase">
+        <img src="/img/icons/node.svg" class="skill_icons" alt="node">
+        <img src="/img/icons/git.svg" class="skill_icons" alt="git">
+        <img src="/img/icons/wordpress.svg" class="skill_icons" alt="wordpress">
+        <img src="/img/icons/php.svg" class="skill_icons" alt="php">
+        <img src="/img/icons/mysql.svg" class="skill_icons" alt="mysql">
+        <img src="/img/icons/ai.svg" class="skill_icons" alt="ai">
+        <img src="/img/icons/ps.svg" class="skill_icons" alt="ps">
+
+        <!-- <div>
           <p>HTML5</p>
           <p>CSS3</p>
           <p>JavaScript</p>
@@ -54,7 +70,7 @@
           <p>MySQL</p>
           <p>Illustrator</p>
           <p>Photoshop</p>
-        </div>
+        </div>-->
       </div>
     </div>
   </section>
@@ -103,7 +119,7 @@ export default {
 .container {
   width: 100vw;
   height: 100%;
-  background-color: #f4f4f4;
+  background-color: #f2f2f3;
 }
 
 .content {
@@ -111,53 +127,6 @@ export default {
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
-}
-
-.title_animation {
-  margin-left: -100px;
-}
-
-.title {
-  font-size: 3.5em;
-  font-weight: 700;
-  padding-top: 8%;
-  margin-top: 0;
-  letter-spacing: 0.1em;
-  text-align: left;
-  opacity: 0;
-  transition: 1s all cubic-bezier(0.39, 0.575, 0.565, 1);
-  margin-left: -100px;
-}
-
-.border1 {
-  background-color: aqua;
-  width: 20%;
-}
-
-.border2 {
-  background-color: #5db68c;
-  width: 80%;
-}
-
-.title_border {
-  border: 6px solid #fbf7c6;
-  margin-top: -30px;
-}
-
-.title_border2 {
-  border: 2px solid #e5e6e5;
-  margin-top: -26px;
-}
-
-.border-container {
-  display: flex;
-  width: 0;
-  margin-left: auto;
-  margin-right: auto;
-  opacity: 0;
-  transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
-  margin-left: -1000px;
-  /* background-color: pink; */
 }
 
 .about_container {
@@ -172,22 +141,30 @@ export default {
 }
 
 .img_container {
-  /* background-color: aquamarine; */
   min-width: 300px;
-  text-align: left;
 }
 
 .profile_img {
-  width: 90%;
-  margin-top: 10%;
-  border-radius: 3px;
-  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+  width: 250px;
+  margin-top: 13%;
+  margin-right: 5%;
+  border-radius: 50%;
+  box-shadow: 5px 8px 0px #fdd23e;
+}
+
+.vertical_line {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 1px;
+  height: 300px;
+  background-color: #dbdbdb;
 }
 
 .desc {
+  padding-left: 5%;
   text-align: left;
   line-height: 1.5em;
-  /* background-color: khaki; */
+  width: 70%;
 }
 
 .desc h3 {
@@ -196,18 +173,37 @@ export default {
 
 .desc p {
   font-size: 1.1em;
-  font-weight: lighter;
 }
 
 .skills {
-  font-size: 1.8em;
-  color: #5db68c;
+  font-size: 2em;
+  letter-spacing: 0.1em;
   opacity: 0;
   transition: 1s all cubic-bezier(0.39, 0.575, 0.565, 1);
   transition-delay: 1.2s;
 }
 
+.orange_marker {
+  position: relative;
+  top: -30px;
+  display: inline-block;
+  width: 180px;
+  height: 7px;
+  background: #ee815c;
+}
+
+.orange_marker:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -10px;
+  border: 10px solid transparent;
+  border-top: 15px solid #ee815c;
+}
+
 .skills_container {
+  border-top: 8px solid #fdd23e;
   width: 80%;
   max-width: 1000px;
   margin-right: auto;
@@ -233,6 +229,12 @@ export default {
 
 .skills_container div p {
   line-height: 1em;
+}
+
+.skill_icons {
+  width: 70px;
+  height: 70px;
+  margin: 20px;
 }
 
 @media screen and (max-width: 834px) and (orientation: portrait) {

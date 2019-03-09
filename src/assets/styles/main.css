@@ -2,10 +2,10 @@ html, body {
   margin: 0;
   font-family: "Lato", sans-serif;
   text-align: center;
-  color: #575754;
+  color: black;
 }
 p{
-  font-weight: lighter;
+
   font-family: "Lato", sans-serif;
   font-size:1.1em;
   letter-spacing: 0.03em;
@@ -46,6 +46,13 @@ p{
   }
 }
 
+.orange_border {
+  width: 300px;
+  border: 4px solid #ee815c;
+  margin-top: 0px;
+}
+
+/* 多分もういらない */
 
 .border1 {
   background-color: aqua;
@@ -95,6 +102,43 @@ p{
     width: 100%;
     left: 0;
   }
+}
+
+/* ここまで */
+
+.title_container {
+  position: relative;
+  display: inline-block;
+  margin: 2em 0;
+  padding: 0px 40px;
+  min-width: 120px;
+  max-width: 100%;
+  background: #14a79c;
+  border-radius: 2px;
+}
+
+.title_container:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 25px solid #14a79c;
+}
+
+.yellow_border {
+  width: 80px;
+  border: 2px solid #fdd23e;
+  position:relative;
+  bottom: 30px;
+}
+
+.content_title {
+  color: #fff;
+  letter-spacing: 0.1em;
+  font-size: 2.5em;
+
 }
 
 .firstL_content{
@@ -207,6 +251,11 @@ p{
 .project_content {
   display: flex;
   flex-direction: row;
+  margin-top: 3%;
+}
+
+.project_content2 {
+ width:100%;
   margin-top: 3%;
 }
 

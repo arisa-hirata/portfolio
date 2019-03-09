@@ -2,11 +2,16 @@
   <section id="home">
     <div id="bg">
       <div class="title">
-        <h1 class="primary">
-          Hello, I'm
-          <span style="color: #fbf7c6;font-weight:500;">Arisa Hirata</span>.
-        </h1>
-        <h1 class="secondly">Front-End Developer & UI/UX Designer.</h1>
+        <h2 class="hello">Hello! I am</h2>
+
+        <div class="myName_container">
+          <img src="/img/titleLogo.svg" alt="LOGO" class="titleLogo">
+          <div class="name_container">
+            <h1 class="primary">risa Hirata</h1>
+          </div>
+        </div>
+
+        <h1 class="secondly">Front-End Developer & UI/UX Designer</h1>
         <!-- <div class="btn">View my work</div> -->
         <a href="#" v-scroll-to="'#about'" class="btn">View my work</a>
       </div>
@@ -23,13 +28,16 @@ section {
 
 #bg {
   /* background-image: url("~assets/img/IconicWorld.jpg"); */
-  width: 100vw;
-  height: 100vh;
+  width: 90vw;
+  height: 90vh;
   background-size: cover;
   position: absolute;
   top: 0;
+  bottom: 0;
+  right: 0;
   left: 0;
-  background-color: #575754;
+  margin: 0 auto;
+  background-color: #fdd23e;
 }
 
 .title {
@@ -40,24 +48,43 @@ section {
   left: 0;
   right: 0;
   margin: auto;
-  color: white;
-  line-height: 2em;
-  text-shadow: 1px 2px 10px rgba(50, 50, 50, 0.7);
+  line-height: 0.1em;
   width: 100%;
   height: 30%;
   /* background-color: pink; */
   /* font-size: 2vw; */
 }
 
-.primary {
-  font-size: 4em;
-  margin-left: 5%;
-  text-align: left;
-  font-weight: lighter;
+.hello {
   letter-spacing: 0.1em;
+  font-size: 2em;
+}
+
+.myName_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+}
+
+.titleLogo {
+  width: 7%;
+  margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.primary {
+  font-size: 4.8em;
+  font-weight: 900;
+  letter-spacing: 0.2em;
   animation: primary 2s forwards;
   opacity: 0;
   position: relative;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 @keyframes primary {
@@ -72,11 +99,9 @@ section {
 }
 
 .secondly {
-  font-size: 2em;
+  font-size: 1.8em;
   margin-left: 5%;
-  text-align: left;
-  font-weight: lighter;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
   animation: secondly 2s forwards;
   opacity: 0;
   position: relative;
@@ -102,10 +127,11 @@ section {
   margin-top: 3%;
   font-size: 1.7vw;
   display: inline-block;
-  padding: 0.5em 1em;
+  padding: 1.3em 1em;
   text-decoration: none;
-  color: white;
-  border: solid 2px white;
+  color: #fff;
+  border: solid 2px #14a79c;
+  background: #14a79c;
   border-radius: 10px;
   transition: 0.4s;
   cursor: pointer;
@@ -127,8 +153,8 @@ section {
 }
 
 .btn:hover {
-  background: #5db68c;
-  border: solid 2px #5db68c;
+  background: #0b6d6a;
+  border: solid 2px #0b6d6a;
   color: white;
 }
 

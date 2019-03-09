@@ -116,7 +116,7 @@
   height: 80vh;
   color: #575754;
   background-color: #fbf7c6;
-  margin-top: 10%;
+  margin-top: 0;
 }
 
 .content {
