@@ -1,16 +1,21 @@
 <template>
-  <section id="contact">
-    <div class="container">
-      <h2 class="title">Contact</h2>
-      <hr class="title_border">
+  <section id="contact" class="container">
+    <hr class="orange_border">
+    <div class="content">
+      <div class="title_container">
+        <h2 class="content_title">Contact</h2>
+        <hr class="yellow_border">
+      </div>
+    </div>
 
+    <div class="contact_container">
       <div class="icon_container">
         <a href="mailto:arisa.pirata@gmail.com">
           <div class="icons">
             <svg id="Layer_1" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
               <style>
                 .st0 {
-                  fill: #575754;
+                  fill: #fdd23e;
                 }
               </style>
               <path
@@ -33,7 +38,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 99.4 99.8">
               <path
                 d="M93.9 5.6C90.3 2 85.9.1 80.7.1h-62C13.6.1 9.2 1.9 5.5 5.6S0 13.6 0 18.8v62.1c0 5.1 1.8 9.5 5.5 13.2 3.6 3.6 8 5.5 13.2 5.5h62.1c5.1 0 9.5-1.8 13.2-5.5 3.6-3.6 5.5-8 5.5-13.2V18.7c-.1-5.1-1.9-9.5-5.6-13.1zM30.3 83.3H15.4V38.4h14.9v44.9zM29 30.1c-1.6 1.5-3.6 2.2-6.1 2.2h-.1c-2.4 0-4.4-.7-6-2.2-1.5-1.5-2.3-3.3-2.3-5.5s.8-4.1 2.4-5.6c1.6-1.5 3.6-2.2 6.1-2.2 2.5 0 4.5.7 6 2.2 1.5 1.5 2.3 3.3 2.3 5.6 0 2.2-.8 4-2.3 5.5zm55.1 53.2h-15v-24c0-6.8-2.5-10.1-7.5-10.1-1.9 0-3.5.5-4.8 1.6S54.6 53 54 54.6c-.3.8-.5 2-.5 3.6v25.1H38.6c.1-27.1.1-42 0-44.9h14.9v6.3c3.1-4.9 7.6-7.4 13.4-7.4 5.2 0 9.3 1.7 12.5 5.1 3.1 3.4 4.7 8.4 4.7 15.1v25.8z"
-                fill="#575754"
+                fill="#fdd23e"
               ></path>
             </svg>
           </div>
@@ -43,7 +48,7 @@
             <svg id="Layer_1" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
               <style>
                 .st0 {
-                  fill: #575754;
+                  fill: #fdd23e;
                 }
               </style>
               <path
@@ -65,7 +70,7 @@
             >
               <style>
                 .st0 {
-                  fill: #575754;
+                  fill: #fdd23e;
                 }
               </style>
               <path
@@ -90,32 +95,16 @@
                 fill="#ffffff"
               ></path>
             </svg>
-            <svg class="arrow arrow2" viewBox="0 0 451.8 451.8">
-              <path
-                d="M248.3 106.4l194.3 194.3c12.4 12.4 12.4 32.4 0 44.8-12.4 12.4-32.4 12.4-44.7 0l-172-172L54 345.4c-12.4 12.4-32.4 12.4-44.7 0-12.4-12.4-12.4-32.4 0-44.8l194.3-194.3c6.2-6.2 14.3-9.3 22.4-9.3 8 .1 16.1 3.2 22.3 9.4z"
-                fill="#ffffff"
-              ></path>
-            </svg>
           </div>
         </a>
       </div>
     </div>
-
-    <footer class="footer">
-      <p class="copyright">
-        &copy; Copyright 2019
-        <span style="color:#fbf7c6;">Arisa Hirata</span>
-      </p>
-    </footer>
   </section>
 </template>
 
 <style scoped>
 .container {
   width: 100vw;
-  height: 80vh;
-  color: #575754;
-  background-color: #fbf7c6;
   margin-top: 0;
 }
 
@@ -126,33 +115,25 @@
   margin-left: auto;
 }
 
-.title {
-  font-size: 2.5em;
-  font-weight: 700;
-  padding-top: 70px;
-  margin-top: 0;
-}
-
-.title_border {
-  border: 2px solid #242e49;
-  width: 80px;
-  margin-top: -20px;
+.contact_container {
+  background-color: #f2f2f3;
+  margin-top: 30px;
 }
 
 .icon_container {
   display: flex;
   justify-content: center;
-  margin-top: 70px;
+  padding-top: 100px;
 }
 
 .icons {
-  background-color: white;
+  background-color: #fff;
   margin: 20px;
   width: 60%;
-  max-width: 70px;
-  max-height: 70px;
+  max-width: 90px;
+  max-height: 90px;
   border-radius: 10px;
-  box-shadow: 0px 2px 8px lightgrey;
+  box-shadow: 0px 2px 8px #dbdbdb;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
@@ -176,15 +157,15 @@
 }
 
 .icons:hover {
-  background-color: #5db68c;
+  background-color: #df744a;
 }
 
 .icons:hover path {
-  fill: white;
+  fill: #fff;
 }
 
 .icons:hover ellipse {
-  fill: white;
+  fill: #fff;
 }
 
 .icon {
@@ -200,12 +181,12 @@
 }
 
 .arrow_box {
-  background-color: #5db68c;
+  background-color: #14a79c;
   margin: 20px;
-  width: 70px;
-  height: 70px;
-  border-radius: 10px;
-  box-shadow: 0px 2px 8px lightgrey;
+  width: 55px;
+  height: 55px;
+  border-radius: 2px;
+  box-shadow: 0px 2px 8px #dbdbdb;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
@@ -214,28 +195,15 @@
 }
 
 .arrow_box:hover {
-  background-color: #df744a;
+  background-color: #0b6d6a;
 }
 
 .arrow {
-  margin-top: 5px;
-  width: 50%;
+  margin-top: 15px;
+  width: 45%;
 }
 
 .arrow2 {
   margin-top: -30px;
-}
-
-.footer {
-  height: 80px;
-  background-color: #575754;
-  color: white;
-  width: 100vw;
-  margin-top: -20px;
-}
-
-.copyright {
-  padding-top: 30px;
-  font-weight: lighter;
 }
 </style>

@@ -7,6 +7,7 @@
     <About/>
     <Project/>
     <Contact/>
+    <Footer/>
     <nuxt/>
   </div>
 </template>
@@ -17,6 +18,7 @@ import About from "@/components/About";
 import Top from "@/components/Top";
 import Project from "@/components/Project";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default {
   components: {
@@ -24,7 +26,8 @@ export default {
     About,
     Top,
     Project,
-    Contact
+    Contact,
+    Footer
   }
 };
 </script>

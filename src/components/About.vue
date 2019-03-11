@@ -46,31 +46,6 @@
         <img src="/img/icons/mysql.svg" class="skill_icons" alt="mysql">
         <img src="/img/icons/ai.svg" class="skill_icons" alt="ai">
         <img src="/img/icons/ps.svg" class="skill_icons" alt="ps">
-
-        <!-- <div>
-          <p>HTML5</p>
-          <p>CSS3</p>
-          <p>JavaScript</p>
-          <p>jQuery</p>
-        </div>
-        <div>
-          <p>React.js</p>
-          <p>Redux</p>
-          <p>Vue.js</p>
-          <p>Nuxt.js</p>
-        </div>
-        <div>
-          <p>Firebase</p>
-          <p>Node.js</p>
-          <p>WordPress</p>
-          <p>Bootstrap</p>
-        </div>
-        <div>
-          <p>PHP</p>
-          <p>MySQL</p>
-          <p>Illustrator</p>
-          <p>Photoshop</p>
-        </div>-->
       </div>
     </div>
   </section>
@@ -147,7 +122,8 @@ export default {
 .profile_img {
   width: 250px;
   margin-top: 13%;
-  margin-right: 5%;
+  margin-right: auto;
+  margin-left: auto;
   border-radius: 50%;
   box-shadow: 5px 8px 0px #fdd23e;
 }
@@ -155,13 +131,17 @@ export default {
 .vertical_line {
   margin-top: auto;
   margin-bottom: auto;
+  margin-right: 50px;
+  margin-left: 30px;
   width: 1px;
   height: 300px;
   background-color: #dbdbdb;
+  display: block;
 }
 
 .desc {
-  padding-left: 5%;
+  margin-right: auto;
+  margin-left: auto;
   text-align: left;
   line-height: 1.5em;
   width: 70%;
@@ -212,9 +192,9 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: white;
+  background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0px 2px 8px lightgrey;
+  box-shadow: 0px 2px 8px #dbdbdb;
   padding: 10px 0;
   margin-bottom: 70px;
   opacity: 0;
@@ -244,6 +224,7 @@ export default {
   .about_container {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
   }
 
   .img_container {
@@ -252,6 +233,10 @@ export default {
 
   .skills_container {
     margin-bottom: 70px;
+  }
+
+  .vertical_line {
+    display: none;
   }
 }
 

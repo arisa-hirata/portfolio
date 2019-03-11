@@ -1,51 +1,53 @@
 <template>
-  <section class="project_container">
+  <section class="project">
     <Header2/>
-    <h2 class="project_title">NiceCream Factory</h2>
-    <div class="border-container">
-      <div class="border1">
-        <hr class="title_border">
-      </div>
-      <div class="border2">
-        <hr class="title_border2">
-      </div>
-    </div>
 
-    <div class="project_content">
-      <div class="box">
-        <img src="/img/Filter_NiceCream.png" alt="NiceCream" class="main_img">
-      </div>
-      <div class="box">
-        <div class="detail_container">
-          <div class="details">
-            <div class="details_left">
-              <p>
-                <b>Role:</b>
-              </p>
-              <p style="margin-top: 44px;">
-                <b>Client:</b>
-              </p>
-              <p>
-                <b>Timeline:</b>
-              </p>
-              <p>
-                <b>Skills:</b>
-              </p>
-            </div>
-            <div class="details_right">
-              <p>Front-End Developer / UI & UX Designer / Graphic Designer</p>
-              <p>BCIT Term1</p>
-              <p>November - December 2017</p>
-              <p>HTML5 / CSS3 / JavaScript /jQuery / Adobe Illustrator / Photoshop</p>
-            </div>
+    <div class="gray">
+      <div class="white"></div>
+
+      <div class="project_container gray_top">
+        <div class="title_container">
+          <h2 class="content_title">Baby Animal Farm</h2>
+          <hr class="yellow_border">
+        </div>
+
+        <div class="project_content">
+          <div class="box">
+            <img src="/img/Filter_NiceCream.png" alt="NiceCream" class="main_img">
           </div>
-          <div class="btn_container">
-            <a href="http://nicecreamfactory.arisahirata.ca/arisahirata/html/">
-              <div class="project_btn">Website</div>
-            </a>
-            <a href="https://github.com/arisa-hirata/nicecreamfactory">
-              <div class="project_btn">Github</div>
-            </a>
+          <div class="box">
+            <div class="detail_container">
+              <div class="details">
+                <div class="details_left">
+                  <p>
+                    <b>Role:</b>
+                  </p>
+                  <p style="margin-top: 44px;">
+                    <b>Client:</b>
+                  </p>
+                  <p>
+                    <b>Timeline:</b>
+                  </p>
+                  <p>
+                    <b>Skills:</b>
+                  </p>
+                </div>
+                <div class="details_right">
+                  <p>Front-End Developer / UI & UX Designer / Graphic Designer</p>
+                  <p>BCIT Term1</p>
+                  <p>November - December 2017</p>
+                  <p>HTML5 / CSS3 / JavaScript /jQuery / Adobe Illustrator / Photoshop</p>
+                </div>
+              </div>
+              <div class="btn_container">
+                <a href="http://nicecreamfactory.arisahirata.ca/arisahirata/html/">
+                  <div class="project_btn">Website</div>
+                </a>
+                <a href="https://github.com/arisa-hirata/nicecreamfactory">
+                  <div class="project_btn">Github</div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

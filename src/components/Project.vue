@@ -312,7 +312,7 @@ export default {
 .project {
   transition: all 0.35s ease-in-out;
   margin: 20px 30px;
-  box-shadow: 0px 2px 8px lightgrey;
+  box-shadow: 0px 2px 8px #dbdbdb;
   border-radius: 3px;
   width: 350px;
   max-width: 400px;
@@ -330,7 +330,8 @@ export default {
   -ms-transform: translateY(-10px);
   transform: translateY(-10px);
   transition: 0.3s;
-  box-shadow: 0px 12px 8px lightgrey;
+  box-shadow: 0px 12px 8px #dbdbdb;
+  opacity: 1;
 }
 
 .project:active {
@@ -338,7 +339,7 @@ export default {
   -ms-transform: translateY(0px);
   transform: translateY(0px);
   transition: 0.1s;
-  box-shadow: 0px 2px 8px lightgrey;
+  box-shadow: 0px 2px 8px #dbdbdb;
 }
 
 .project-image-wrapper {
