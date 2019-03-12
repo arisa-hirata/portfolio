@@ -92,7 +92,7 @@ export default {
         },
         {
           title: "NiceCream Factory",
-          image: "/img/Filter_NiceCream.png",
+          image: "/img/Filter_NiceCreamFactory.png",
           categories: ["Developlent", "UI/UX Design", "Graphic Design"],
           skill: "HTML + CSS + jQuery",
           link: "/NiceCreamFactory",
@@ -103,7 +103,7 @@ export default {
           image: "/img/Filter_JAJA.png",
           categories: ["Developlent"],
           skill: "Vue + Firebase",
-          link: "/",
+          link: "/JAJA",
           comingsoon: ""
         },
         {
@@ -111,7 +111,7 @@ export default {
           image: "/img/Filter_HotSpring.png",
           categories: ["Developlent", "UI/UX Design"],
           skill: "WordPress",
-          link: "/",
+          link: "/HotSpringSeekers",
           comingsoon: ""
         },
         {
@@ -119,7 +119,7 @@ export default {
           image: "/img/Infographic.png",
           categories: ["Graphic Design"],
           skill: "Illustrator",
-          link: "/",
+          link: "/Infographic",
           comingsoon: ""
         },
         {
@@ -127,15 +127,15 @@ export default {
           image: "/img/Filter_iconicWorld.png",
           categories: ["Graphic Design"],
           skill: "Illustrator",
-          link: "/",
+          link: "/IconicWorld",
           comingsoon: ""
         },
         {
-          title: "Chimaira Poster",
+          title: "Shoepaca Poster",
           image: "/img/Filter_shoepaca.png",
           categories: ["Graphic Design"],
           skill: "Photoshop",
-          link: "/",
+          link: "/Shoepaca",
           comingsoon: ""
         },
         {

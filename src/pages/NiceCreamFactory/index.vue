@@ -7,13 +7,13 @@
 
       <div class="project_container gray_top">
         <div class="title_container">
-          <h2 class="content_title">Baby Animal Farm</h2>
+          <h2 class="content_title">NiceCream Factory</h2>
           <hr class="yellow_border">
         </div>
 
         <div class="project_content">
           <div class="box">
-            <img src="/img/Filter_NiceCream.png" alt="NiceCream" class="main_img">
+            <img src="/img/NiceCream/NiceCream.png" alt="NiceCream" class="main_img">
           </div>
           <div class="box">
             <div class="detail_container">
@@ -53,56 +53,59 @@
       </div>
     </div>
 
-    <div class="project_content">
-      <div class="box">
-        <img
-          src="/img/NiceCream/Logo&Color.png"
-          alt="Logo&Color"
-          class="main_img"
-          style="width:80%;"
-        >
-        <p style="text-align:center; margin-top:5%;">Logo & Color Pallete</p>
+    <div class="project_content whiteBg">
+      <div class="projectDeskL secondL_content">
+        <h3 class="project_subtitle" style="margin-top: 0;">
+          <span class="under">What is
+            <br>NiceCream Factory?
+          </span>
+        </h3>
       </div>
-      <div class="box">
+      <div class="projectDeskR secondR_content">
         <div class="para">
           <div>
-            <h3 class="project_subtitle">
-              What is
-              <span style="color: #5db68c; text-align:center">NiceCream Factory</span>?
-            </h3>
-            <hr class="project_border">
-
-            <p>
-              This is a website for an fictional rolled ice cream shop “Nice Cream Factory“.
-              The website is developed with HTML, CSS and jQuery.
+            <p>This is a website for an fictional rolled ice cream shop “Nice Cream Factory“.
+              <br>The website is developed with HTML, CSS and jQuery.
             </p>
           </div>
         </div>
-        <div class="para">
-          <div>
-            <h3 class="project_subtitle">
-              <span style="color: #5db68c;">C</span>HALLENGES
-            </h3>
-            <hr class="project_border">
-
-            <p>This project was a biggest project in my first term at BCIT. The requirements for the project spanned the entire design and development process, including UX research, UI design, and development. We were required to create the branding and style guide for a fictional business, and then create a website. In this project, I was the only person made a responsive website.</p>
-          </div>
-        </div>
       </div>
     </div>
 
-    <h3 class="project_subtitle" style="margin-top:10%;">
-      <span style="color: #5db68c;">P</span>ROCESS
-    </h3>
-    <hr class="project_border">
-    <div class="project_content2">
-      <img src="/img/NiceCream/wireframes.png" alt="wireframe" style="width:80%">
-      <p style="text-align:center; margin-top:10px;">Wireframes</p>
+    <div class="project_content whiteBg">
+      <div class="projectDeskL-2">
+        <div class="para">
+          <p>This project was a biggest project in my first term at BCIT. The requirements for the project spanned the entire design and development process, including UX research, UI design, and development. We were required to create the branding and style guide for a fictional business, and then create a website. In this project, I was the only person made a responsive website.</p>
+        </div>
+      </div>
+      <div class="projectDeskR-2">
+        <h3 class="project_subtitle">
+          <span class="under">CHALLENGES</span>
+        </h3>
+      </div>
     </div>
-    <div class="project_content2">
-      <img src="/img/NiceCream/design_process.png" alt="wireframe" style="width:70%">
-      <p style="text-align:center; margin-top:10px;">Logo Design Process</p>
+
+    <div class="greenBg">
+      <h3 class="project_subtitle" style="margin-top:10%;padding-top:5%;color: #fff;">PROCESS</h3>
+      <hr class="border_short" style="border: 2px solid #fdd23e;">
+      <div style="padding-bottom: 3%;">
+        <img
+          src="/img/NiceCream/wireframes.png"
+          alt="BabyAnimalFarm"
+          class="main_img Yshadow"
+          style="max-width:900px;"
+        >
+        <p class="capture" style="text-align:center;">Wireframes</p>
+        <img
+          src="/img/NiceCream/design_process.png"
+          alt="Pollways"
+          class="main_img Yshadow"
+          style="max-width:900px;"
+        >
+        <p class="capture" style="text-align:center;">Logo Design Process</p>
+      </div>
     </div>
+
     <Footer/>
   </section>
 </template>
@@ -120,6 +123,19 @@ export default {
 </script>
 
 <style scoped>
+.title_container {
+  width: 500px;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  padding: 0px 40px;
+  min-width: 120px;
+  max-width: 100%;
+  background: #14a79c;
+  border-radius: 2px;
+}
 p {
   text-align: left;
 }

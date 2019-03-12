@@ -17,7 +17,6 @@
               src="/img/BabyAnimalFarm/BabyAnimalFarm.png"
               alt="Baby Animal Farm"
               class="main_img"
-              style="width: 700px;"
             >
           </div>
           <div class="box firstR_content">

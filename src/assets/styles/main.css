@@ -375,7 +375,7 @@ p{
 
 .capture {
   text-align:center;
-   margin-top:5%;
+   margin-top:3%;
    color: #fff;
 }
 
@@ -405,6 +405,26 @@ p{
     display: flex;
     flex-direction: column;
   }
+
+  .projectDeskL {
+  width:100%;
+  text-align:center;
+}
+
+.projectDeskR {
+  width:100%;
+}
+
+.projectDeskL-2 {
+  width:100%;
+
+}
+.projectDeskR-2 {
+  width:100%;
+  text-align:center;
+  margin-left:1%;
+}
+
 
   .box {
     width: 100%;

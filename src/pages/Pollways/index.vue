@@ -216,6 +216,7 @@ p {
   text-align: left;
 }
 .tutorial {
-  box-shadow: 7px 7px 0px #14a79c;
+  /* box-shadow: 7px 7px 0px #14a79c; */
+  border: 13px solid #14a79c;
 }
 </style>

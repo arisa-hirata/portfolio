@@ -6,15 +6,15 @@
 
       <div class="project_container gray_top">
         <div class="title_container">
-          <h2 class="content_title">Infographic</h2>
+          <h2 class="content_title">Shoepaca</h2>
           <hr class="yellow_border">
         </div>
 
         <div class="project_content" style="margin-bottom:3%">
           <div class="box firstL_content">
-            <img src="/img/Infographic/Infographic.png" alt="Pollways" class="main_img">
+            <img src="/img/Shoepaca/Shoepaca.png" alt="Pollways" class="main_img">
           </div>
-          <div class="box firstR_content">
+          <div class="box firstR_content" style="margin-top:5%;">
             <div class="detail_container">
               <div class="details">
                 <div class="details_left">
@@ -33,12 +33,27 @@
                 </div>
                 <div class="details_right">
                   <p>Graphic Designer</p>
-                  <p>BCIT Term2</p>
-                  <p>3 weeks in May 2018</p>
-                  <p>Adobe Illustorator</p>
+                  <p>BCIT Term3</p>
+                  <p>3 weeks in September 2018</p>
+                  <p>Adobe Photoshop</p>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="project_content whiteBg">
+      <div class="projectDeskL secondL_content">
+        <h3 class="project_subtitle">
+          <span class="under">BACKGROUND</span>
+        </h3>
+      </div>
+      <div class="projectDeskR secondR_content">
+        <div class="para">
+          <div class="desc">
+            <p>Shoepaca is a synthetic animal consisted of alpaca and shoebill. I was inspired by “Princess Mononke” which is one of a Ghibli animation. In the Japanese version’s movie poster the word “Stay Strong” is written as a catch copy. Also, I was inspired by the scene The Great Forest Spirit is standing in the forest.</p>
           </div>
         </div>
       </div>
@@ -49,9 +64,8 @@
       <hr class="border_short" style="border: 2px solid #fdd23e;">
       <img
         class="tutorial"
-        src="/img/Infographic/infographicGif.gif"
+        src="/img/Shoepaca/Shoepaca.gif"
         width="560"
-        height="315"
         alt="GIF"
         border="0"
         align="center"
@@ -65,7 +79,7 @@
         <span class="under">FINAL PRODUCT</span>
       </h3>
 
-      <img src="/img/Infographic/Infographic.png" alt="penguin" style="width:100%; max-width:900px">
+      <img src="/img/Shoepaca/Shoepaca.png" alt="penguin" style="width:100%; max-width:900px">
     </div>
 
     <Footer/>
@@ -125,7 +139,7 @@ export default {
 
 <style scoped>
 .title_container {
-  width: 300px;
+  width: 400px;
   position: absolute;
   top: 100px;
   right: 0;
