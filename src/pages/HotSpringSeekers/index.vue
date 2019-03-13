@@ -22,7 +22,8 @@
                   <p>
                     <b>Role:</b>
                   </p>
-                  <p>
+
+                  <p class="line_space1 resp">
                     <b>Client:</b>
                   </p>
                   <p>
@@ -141,5 +142,28 @@ export default {
 }
 p {
   text-align: left;
+}
+@media screen and (max-width: 834px) and (orientation: portrait) {
+  .title_container {
+    width: 300px;
+  }
+  .project_content {
+    margin-top: 100px;
+  }
+  .detail_container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 0px;
+  }
+  .line_space1 {
+    margin-top: 45px;
+  }
+  .btn_container {
+    margin-top: 10px;
+  }
+  .bottom_space {
+    margin-top: 80px;
+    margin-bottom: -80px;
+  }
 }
 </style>

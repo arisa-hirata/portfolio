@@ -247,7 +247,7 @@ p{
 .box_container{
   display:flex;
   width: 90%;
-  max-width: 12000px;
+  max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 5%;
@@ -271,6 +271,15 @@ p{
   width:35%;
   text-align:left;
   margin-left:1%;
+}
+
+.web {
+  display:block;
+}
+
+.resp{
+  display: none;
+
 }
 
 .project_desc {
@@ -406,6 +415,14 @@ p{
     flex-direction: column;
   }
 
+  .content_title {
+  font-size: 2em;
+}
+
+.yellow_border {
+  bottom: 20px;
+}
+
   .projectDeskL {
   width:100%;
   text-align:center;
@@ -423,6 +440,15 @@ p{
   width:100%;
   text-align:center;
   margin-left:1%;
+}
+
+.web {
+  display:none;
+}
+
+.resp{
+  display: block;
+
 }
 
 

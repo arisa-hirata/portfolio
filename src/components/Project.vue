@@ -143,7 +143,7 @@ export default {
           image: "/img/KirbyCafe.png",
           categories: ["Graphic Design"],
           skill: "Photoshop",
-          link: "/",
+          link: "/GalaxyKirbyCafe",
           comingsoon: ""
         }
       ]

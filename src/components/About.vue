@@ -221,6 +221,10 @@ export default {
   .container {
     height: 100%;
   }
+  .content {
+    width: 100%;
+  }
+
   .about_container {
     display: flex;
     flex-direction: column;

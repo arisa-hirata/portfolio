@@ -46,7 +46,7 @@
 
     <div class="project_content whiteBg">
       <div class="projectDeskL secondL_content">
-        <h3 class="project_subtitle">
+        <h3 class="project_subtitle resp_space">
           <span class="under">BACKGROUND</span>
         </h3>
       </div>
@@ -157,5 +157,24 @@ p {
 .tutorial {
   /* box-shadow: 7px 7px 0px #14a79c; */
   border: 13px solid #fdd23e;
+}
+@media screen and (max-width: 834px) and (orientation: portrait) {
+  .title_container {
+    width: 200px;
+  }
+  .project_content {
+    margin-top: 80px;
+  }
+  .detail_container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 250px;
+  }
+  .tutorial {
+    width: 85%;
+  }
+  .resp_space {
+    margin-top: -30px;
+  }
 }
 </style>

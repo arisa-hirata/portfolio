@@ -51,7 +51,6 @@
         class="tutorial"
         src="/img/Infographic/infographicGif.gif"
         width="560"
-        height="315"
         alt="GIF"
         border="0"
         align="center"
@@ -143,5 +142,30 @@ p {
 .tutorial {
   /* box-shadow: 7px 7px 0px #14a79c; */
   border: 13px solid #fdd23e;
+}
+@media screen and (max-width: 834px) and (orientation: portrait) {
+  .title_container {
+    width: 250px;
+  }
+  .project_content {
+    margin-top: 70px;
+  }
+  .detail_container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 250px;
+  }
+
+  .tutorial {
+    width: 85%;
+  }
+
+  .line_space {
+    margin-top: 70.5px;
+  }
+  .bottom_space {
+    margin-top: 80px;
+    margin-bottom: -80px;
+  }
 }
 </style>

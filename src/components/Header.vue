@@ -36,7 +36,7 @@
     <div class="burger_menu">
       <nav role="navigation">
         <a href="#" v-scroll-to="'#home'">
-          <img src="/img/logo.png" class="logo">
+          <img src="/img/headerLogo.svg" class="logo">
         </a>
         <div id="menuToggle">
           <input type="checkbox">
@@ -46,9 +46,6 @@
           <span></span>
 
           <ul id="menu">
-            <li>
-              <a href="#" v-scroll-to="'#home'">&nbsp;&nbsp;Home&nbsp;&nbsp;</a>
-            </li>
             <li>
               <a href="#" v-scroll-to="'#about'">&nbsp;&nbsp;About&nbsp;&nbsp;</a>
             </li>
@@ -187,11 +184,11 @@ a {
   a {
     text-decoration: none;
     transition: color 0.3s ease;
-    color: #575754;
+    color: #000;
   }
 
   a:hover {
-    color: #5db68c;
+    color: #14a79c;
   }
 
   .logo {
@@ -233,8 +230,8 @@ a {
     margin-bottom: 5px;
     position: relative;
 
-    background: #cdcdcd;
-    border-radius: 3px;
+    background: #000;
+    border-radius: 1px;
 
     z-index: 1;
 
@@ -255,7 +252,7 @@ a {
   #menuToggle input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
+    background: #000;
   }
 
   #menuToggle input:checked ~ span:nth-last-child(3) {
@@ -275,7 +272,6 @@ a {
     padding: 40px;
     padding-top: 55px;
     border-radius: 3px;
-
     background: #ededed;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -289,6 +285,7 @@ a {
   #menu li {
     padding: 10px 0;
     font-size: 1em;
+    font-weight: 700;
   }
 
   #menuToggle input:checked ~ ul {

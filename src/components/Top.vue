@@ -74,17 +74,19 @@ section {
   margin-right: 10px;
   margin-top: auto;
   margin-bottom: auto;
+  animation: primary 2s forwards;
+  position: relative;
 }
 
 .primary {
   font-size: 4.8em;
   font-weight: 900;
   letter-spacing: 0.2em;
-  animation: primary 2s forwards;
   opacity: 0;
-  position: relative;
   margin-right: auto;
   margin-left: auto;
+  animation: primary 2s forwards;
+  position: relative;
 }
 
 @keyframes primary {
@@ -177,11 +179,11 @@ section {
     margin-top: 10%;
     font-size: 1em;
     display: inline-block;
-    padding: 0.5em 1em;
+    padding: 1em 1em;
     text-decoration: none;
-    color: white;
-    border: solid 2px white;
-    border-radius: 10px;
+    color: #fff;
+
+    border-radius: 5px;
     transition: 0.4s;
     cursor: pointer;
     text-align: center;

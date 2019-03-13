@@ -10,14 +10,9 @@
           <hr class="yellow_border">
         </div>
 
-        <div class="project_content" style="margin-bottom:3%">
+        <div class="project_content">
           <div class="box firstL_content">
-            <img
-              src="/img/Pollways/pollways2.png"
-              alt="Pollways"
-              class="main_img"
-              style="margin-top:-30px"
-            >
+            <img src="/img/Pollways/pollways2.png" alt="Pollways" class="main_img">
           </div>
           <div class="box firstR_content">
             <div class="detail_container">
@@ -88,13 +83,19 @@
       ></iframe>
     </div>
 
+    <div class="projectDeskR-2 thirdR_content resp" v-scroll="handleScrollR">
+      <h3 class="project_subtitle">
+        <span class="under">CHALLENGES</span>
+      </h3>
+    </div>
+
     <div class="project_content whiteBg">
       <div class="projectDeskL-2 thirdL_content" v-scroll="handleScrollL">
         <div class="para">
           <p>This project was the biggest and the most challenging project in my BCIT days. All of the technologies, such as ReactNative, Redux, and firebase were completely new for me. And as a lead developer, I needed to direct other teammates, as well as struggle with the new technology. Basically, my efforts and skills were equivalent to the app quality, which means I took on great responsibility alone. I was under so much pressure every day, and I became discouraged many times. However, I have never stopped working hard, and I have been keeping my best, until the last moment.</p>
         </div>
       </div>
-      <div class="projectDeskR-2 thirdR_content" v-scroll="handleScrollR">
+      <div class="projectDeskR-2 thirdR_content web" v-scroll="handleScrollR">
         <h3 class="project_subtitle">
           <span class="under">CHALLENGES</span>
         </h3>
@@ -212,11 +213,37 @@ export default {
   background: #14a79c;
   border-radius: 2px;
 }
+
+.project_content {
+  margin-bottom: 3%;
+}
+
 p {
   text-align: left;
 }
 .tutorial {
   /* box-shadow: 7px 7px 0px #14a79c; */
   border: 13px solid #14a79c;
+}
+
+.main_img {
+  margin-top: -30px;
+}
+
+@media screen and (max-width: 834px) and (orientation: portrait) {
+  .title_container {
+    width: 150px;
+  }
+  .detail_container {
+    margin-top: 5%;
+    padding-bottom: 0;
+  }
+  .main_img {
+    margin-top: 40px;
+  }
+
+  .btn_container {
+    margin-top: 3%;
+  }
 }
 </style>

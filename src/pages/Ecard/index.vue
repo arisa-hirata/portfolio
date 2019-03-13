@@ -23,7 +23,9 @@
                     <b>ROLE:</b>
                   </p>
 
-                  <p style="margin-top: 44px;">
+                  <p class="line_space web"></p>
+                  <p class="line_space resp"></p>
+                  <p>
                     <b>CLIENT:</b>
                   </p>
                   <p>
@@ -71,26 +73,30 @@
     </div>
 
     <div class="project_content yellowBG">
-      <div class="box_container">
-        <div class="box">
-          <img
-            src="/img/Ecard/1ststage.png"
-            alt="convo"
-            class="main_img"
-            style="box-shadow: 8px 10px 0px #ee815c;"
-          >
-          <p class="capture" style="text-align:center;">1st Stage Answers</p>
-        </div>
-        <div class="box">
-          <img
-            src="/img/Ecard/2ndstage.png"
-            alt="quiz"
-            class="main_img"
-            style="box-shadow: 8px 10px 0px #ee815c;"
-          >
-          <p class="capture" style="text-align:center;">2nd Stage Answers</p>
-        </div>
+      <div class="box">
+        <img
+          src="/img/Ecard/1ststage.png"
+          alt="convo"
+          class="main_img"
+          style="box-shadow: 8px 10px 0px #ee815c;"
+        >
+        <p class="capture" style="text-align:center;">1st Stage Answers</p>
       </div>
+      <div class="box">
+        <img
+          src="/img/Ecard/2ndstage.png"
+          alt="quiz"
+          class="main_img"
+          style="box-shadow: 8px 10px 0px #ee815c;"
+        >
+        <p class="capture" style="text-align:center;">2nd Stage Answers</p>
+      </div>
+    </div>
+
+    <div class="projectDeskR-2 resp" v-scroll="handleScrollR">
+      <h3 class="project_subtitle bottom_space">
+        <span class="under">CHALLENGES</span>
+      </h3>
     </div>
 
     <div class="project_content whiteBg">
@@ -99,7 +105,7 @@
           <p>This e-card was a midterm project for one of my classes at BCIT. We were required to implement 10 facts about a holiday of our choosing. These facts were to be hidden throughout the application, with the user having to interact with the application in order to discover them.</p>
         </div>
       </div>
-      <div class="projectDeskR-2">
+      <div class="projectDeskR-2 web">
         <h3 class="project_subtitle">
           <span class="under">CHALLENGES</span>
         </h3>
@@ -139,5 +145,29 @@ export default {
 }
 p {
   text-align: left;
+}
+.yellowBG {
+  padding-top: 5%;
+}
+.line_space {
+  margin-top: 44px;
+}
+
+@media screen and (max-width: 834px) and (orientation: portrait) {
+  .title_container {
+    width: 250px;
+  }
+  .project_content {
+    margin-top: 100px;
+  }
+  .detail_container {
+    margin-top: 50px;
+  }
+  .line_space {
+    margin-top: 70.5px;
+  }
+  .bottom_space {
+    margin-bottom: -80px;
+  }
 }
 </style>

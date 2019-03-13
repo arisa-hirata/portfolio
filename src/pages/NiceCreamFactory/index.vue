@@ -72,6 +72,12 @@
       </div>
     </div>
 
+    <div class="projectDeskR-2 resp">
+      <h3 class="project_subtitle bottom_space">
+        <span class="under">CHALLENGES</span>
+      </h3>
+    </div>
+
     <div class="project_content whiteBg">
       <div class="projectDeskL-2">
         <div class="para">
@@ -79,7 +85,7 @@
         </div>
       </div>
       <div class="projectDeskR-2">
-        <h3 class="project_subtitle">
+        <h3 class="project_subtitle web">
           <span class="under">CHALLENGES</span>
         </h3>
       </div>
@@ -138,5 +144,26 @@ export default {
 }
 p {
   text-align: left;
+}
+@media screen and (max-width: 834px) and (orientation: portrait) {
+  .title_container {
+    width: 250px;
+  }
+  .project_content {
+    margin-top: 100px;
+  }
+  .detail_container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 15%;
+  }
+
+  .line_space {
+    margin-top: 70.5px;
+  }
+  .bottom_space {
+    margin-top: 80px;
+    margin-bottom: -80px;
+  }
 }
 </style>

@@ -13,7 +13,7 @@
 
         <div class="project_content">
           <div class="box firstL_content">
-            <img src="/img/JAJA/JAJA.png" alt="JAJA" class="main_img" style="width: 700px;">
+            <img src="/img/JAJA/JAJA.png" alt="JAJA" class="main_img">
           </div>
           <div class="box firstR_content">
             <div class="detail_container">
@@ -82,6 +82,12 @@
       ></iframe>
     </div>
 
+    <div class="projectDeskR-2">
+      <h3 class="project_subtitle resp bottom_space">
+        <span class="under">CHALLENGES</span>
+      </h3>
+    </div>
+
     <div class="project_content whiteBg">
       <div class="projectDeskL-2">
         <div class="para">
@@ -89,7 +95,7 @@
         </div>
       </div>
       <div class="projectDeskR-2">
-        <h3 class="project_subtitle">
+        <h3 class="project_subtitle web">
           <span class="under">CHALLENGES</span>
         </h3>
       </div>
@@ -175,5 +181,29 @@ p {
 }
 .tutorial {
   border: 13px solid #14a79c;
+}
+
+@media screen and (max-width: 834px) and (orientation: portrait) {
+  .title_container {
+    width: 150px;
+  }
+  .project_content {
+    margin-top: 100px;
+  }
+  .detail_container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-bottom: 0px;
+  }
+  .line_space {
+    margin-top: 70.5px;
+  }
+  .btn_container {
+    margin-top: 40px;
+  }
+  .bottom_space {
+    margin-top: 80px;
+    margin-bottom: -80px;
+  }
 }
 </style>

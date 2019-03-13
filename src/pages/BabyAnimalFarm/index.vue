@@ -81,26 +81,30 @@
     </div>
 
     <div class="project_content yellowBG">
-      <div class="box_container">
-        <div class="box">
-          <img
-            src="/img/BabyAnimalFarm/convo.png"
-            alt="convo"
-            class="main_img"
-            style="box-shadow: 8px 10px 0px #ee815c;"
-          >
-          <p class="capture" style="text-align:center;">Conversation Scene</p>
-        </div>
-        <div class="box">
-          <img
-            src="/img/BabyAnimalFarm/quiz.png"
-            alt="quiz"
-            class="main_img"
-            style="box-shadow: 8px 10px 0px #ee815c;"
-          >
-          <p class="capture" style="text-align:center;">Quiz Scene</p>
-        </div>
+      <div class="box">
+        <img
+          src="/img/BabyAnimalFarm/convo.png"
+          alt="convo"
+          class="main_img"
+          style="box-shadow: 8px 10px 0px #ee815c;"
+        >
+        <p class="capture" style="text-align:center;">Conversation Scene</p>
       </div>
+      <div class="box">
+        <img
+          src="/img/BabyAnimalFarm/quiz.png"
+          alt="quiz"
+          class="main_img"
+          style="box-shadow: 8px 10px 0px #ee815c;"
+        >
+        <p class="capture" style="text-align:center;">Quiz Scene</p>
+      </div>
+    </div>
+
+    <div class="projectDeskR-2 resp" v-scroll="handleScrollR">
+      <h3 class="project_subtitle">
+        <span class="under">CHALLENGES</span>
+      </h3>
     </div>
 
     <div class="project_content whiteBg">
@@ -112,7 +116,7 @@
           </p>
         </div>
       </div>
-      <div class="projectDeskR-2">
+      <div class="projectDeskR-2 web" v-scroll="handleScrollR">
         <h3 class="project_subtitle">
           <span class="under">CHALLENGES</span>
         </h3>
@@ -144,7 +148,7 @@
         </div>
         <div class="box">
           <img
-            src="/img/BabyAnimalFarm/OriginalDesign.png"
+            src="/img/BabyAnimalFarm/originalDesign.png"
             alt="taskmodel"
             class="main_img Yshadow"
           >
@@ -178,7 +182,7 @@ export default {
 
 <style scoped>
 .title_container {
-  width: 400px;
+  width: 450px;
   position: absolute;
   top: 100px;
   right: 0;
@@ -192,5 +196,23 @@ export default {
 }
 p {
   text-align: left;
+}
+.yellowBG {
+  padding-top: 5%;
+}
+
+@media screen and (max-width: 834px) and (orientation: portrait) {
+  .title_container {
+    width: 250px;
+  }
+  .project_content {
+    margin-top: 100px;
+  }
+  .detail_container {
+    margin-top: 50px;
+  }
+  .resp {
+    margin-bottom: -70px;
+  }
 }
 </style>
