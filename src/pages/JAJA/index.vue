@@ -40,8 +40,8 @@
                 </div>
               </div>
               <div class="btn_container">
-                <a href>
-                  <div class="project_btn" @click="handleClick">Website</div>
+                <a href="https://jajastudio.netlify.com/">
+                  <div class="project_btn">Website</div>
                 </a>
                 <a href="https://github.com/arisa-hirata/jaja">
                   <div class="project_btn">Github</div>

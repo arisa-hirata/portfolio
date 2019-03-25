@@ -1,12 +1,13 @@
-html, body {
+html,
+body {
   margin: 0;
   font-family: "Lato", sans-serif;
   text-align: center;
   color: black;
 }
-p{
+p {
   font-family: "Lato", sans-serif;
-  font-size:1.1em;
+  font-size: 1.1em;
   letter-spacing: 0.03em;
   line-height: 1.5em;
 }
@@ -21,18 +22,18 @@ p{
 }
 
 .white {
-  background-color:#fff;
+  background-color: #fff;
   width: 100%;
   height: 150px;
   z-index: -1;
 }
 
-.gray{
-  background-color:#f2f2f3;
-  padding-bottom:5%;
+.gray {
+  background-color: #f2f2f3;
+  padding-bottom: 5%;
 }
 
-.gray_top{
+.gray_top {
   margin-top: 10%;
 }
 
@@ -66,8 +67,6 @@ p{
   margin-top: 0px;
 }
 
-
-
 .title_container {
   position: relative;
   display: inline-block;
@@ -92,7 +91,7 @@ p{
 .yellow_border {
   width: 80px;
   border: 2px solid #fdd23e;
-  position:relative;
+  position: relative;
   bottom: 30px;
 }
 
@@ -100,12 +99,9 @@ p{
   color: #fff;
   letter-spacing: 0.1em;
   font-size: 2.5em;
-
 }
 
-
-
-.firstL_content{
+.firstL_content {
   animation: FirstL 1s forwards cubic-bezier(0.39, 0.575, 0.565, 1);
   opacity: 0;
   position: relative;
@@ -126,7 +122,7 @@ p{
   }
 }
 
-.firstR_content{
+.firstR_content {
   animation: FirstR 1s forwards cubic-bezier(0.39, 0.575, 0.565, 1);
   opacity: 0;
   position: relative;
@@ -170,7 +166,6 @@ p{
     opacity: 1;
     right: 0;
   }
-
 }
 
 .secondR_content {
@@ -198,18 +193,18 @@ p{
   }
 }
 
-.thirdL_content{
+.thirdL_content {
   opacity: 0;
   transition: 1s all cubic-bezier(0.39, 0.575, 0.565, 1);
   position: relative;
-  left: -800px
+  left: -800px;
 }
 
-.thirdR_content{
+.thirdR_content {
   opacity: 0;
   transition: 1s all cubic-bezier(0.39, 0.575, 0.565, 1);
   position: relative;
-  left: 800px
+  left: 800px;
 }
 
 .project_content {
@@ -218,7 +213,7 @@ p{
   margin-top: 5%;
 }
 
-.whiteBg{
+.whiteBg {
   background-color: #fff;
   width: 90%;
   margin-right: auto;
@@ -236,7 +231,7 @@ p{
 }
 
 .project_content2 {
- width:100%;
+  width: 100%;
   margin-top: 3%;
 }
 
@@ -244,8 +239,8 @@ p{
   width: 50%;
 }
 
-.box_container{
-  display:flex;
+.box_container {
+  display: flex;
   width: 90%;
   max-width: 1200px;
   margin-right: auto;
@@ -255,31 +250,31 @@ p{
 }
 
 .projectDeskL {
-  width:35%;
-  text-align:right;
+  width: 35%;
+  text-align: right;
 }
 
 .projectDeskR {
-  width:65%;
+  width: 65%;
 }
 
 .projectDeskL-2 {
-  width:65%;
-
+  width: 65%;
+  text-align: right;
 }
+
 .projectDeskR-2 {
-  width:35%;
-  text-align:left;
-  margin-left:1%;
+  width: 35%;
+  text-align: left;
+  margin-left: 1%;
 }
 
 .web {
-  display:block;
+  display: block;
 }
 
-.resp{
+.resp {
   display: none;
-
 }
 
 .project_desc {
@@ -295,13 +290,11 @@ p{
 .project_subtitle {
   font-size: 2.2em;
   letter-spacing: 0.05em;
-
 }
 
-.under{
+.under {
   background: linear-gradient(transparent 65%, #ee815c 35%);
 }
-
 
 .detail_container {
   border-top: 8px solid #fdd23e;
@@ -312,7 +305,7 @@ p{
   line-height: 1.5em;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom:30px;
+  padding-bottom: 30px;
 }
 
 .details {
@@ -357,38 +350,36 @@ p{
   box-shadow: 0px 3px 15px #dbdbdb;
   transition: 0.6s;
   cursor: pointer;
-
 }
 
 .project_btn:hover {
-  background-color: #C7623D;
+  background-color: #c7623d;
   color: #fff;
 }
-
 
 .tutorial_container {
   margin-top: 70px;
   margin-bottom: 70px;
-  padding:3% 0% 5% 0%;
+  padding: 3% 0% 5% 0%;
 }
 
 .tutorial_container h3 {
   font-size: 1.9em;
 }
 
-.border_short{
+.border_short {
   width: 100px;
-  margin-top:-20px;
+  margin-top: -20px;
   margin-bottom: 2.5%;
 }
 
 .capture {
-  text-align:center;
-   margin-top:3%;
-   color: #fff;
+  text-align: center;
+  margin-top: 3%;
+  color: #fff;
 }
 
-.Yshadow{
+.Yshadow {
   box-shadow: 7px 7px #fdd23e;
 }
 
@@ -416,41 +407,38 @@ p{
   }
 
   .content_title {
-  font-size: 2em;
-}
+    font-size: 2em;
+  }
 
-.yellow_border {
-  bottom: 20px;
-}
+  .yellow_border {
+    bottom: 20px;
+  }
 
   .projectDeskL {
-  width:100%;
-  text-align:center;
-}
+    width: 100%;
+    text-align: center;
+  }
 
-.projectDeskR {
-  width:100%;
-}
+  .projectDeskR {
+    width: 100%;
+  }
 
-.projectDeskL-2 {
-  width:100%;
+  .projectDeskL-2 {
+    width: 100%;
+  }
+  .projectDeskR-2 {
+    width: 100%;
+    text-align: center;
+    margin-left: 1%;
+  }
 
-}
-.projectDeskR-2 {
-  width:100%;
-  text-align:center;
-  margin-left:1%;
-}
+  .web {
+    display: none;
+  }
 
-.web {
-  display:none;
-}
-
-.resp{
-  display: block;
-
-}
-
+  .resp {
+    display: block;
+  }
 
   .box {
     width: 100%;

@@ -45,7 +45,7 @@
             <nuxt-link :to="project.link" style="text-decoration: none;">
               <div class="project-image-wrapper">
                 <img class="project-image" v-bind:src="project.image">
-                
+
                 <span class="project-title">{{project.title}}</span>
 
                 <div class="skill">{{project.skill}}</div>
@@ -83,11 +83,11 @@ export default {
           comingsoon: ""
         },
         {
-          title: "Easter Ecard",
-          image: "/img/Filter_EasterEcard.png",
-          categories: ["Developlent", "UI/UX Design", "Graphic Design"],
-          skill: "Pure Javascript",
-          link: "/Ecard",
+          title: "JAJA",
+          image: "/img/Filter_JAJA.png",
+          categories: ["Developlent"],
+          skill: "Vue + Firebase",
+          link: "/JAJA",
           comingsoon: ""
         },
         {
@@ -99,11 +99,11 @@ export default {
           comingsoon: ""
         },
         {
-          title: "JAJA",
-          image: "/img/Filter_JAJA.png",
-          categories: ["Developlent"],
-          skill: "Vue + Firebase",
-          link: "/JAJA",
+          title: "Easter Ecard",
+          image: "/img/Filter_EasterEcard.png",
+          categories: ["Developlent", "UI/UX Design", "Graphic Design"],
+          skill: "Pure Javascript",
+          link: "/Ecard",
           comingsoon: ""
         },
         {

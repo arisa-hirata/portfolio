@@ -40,7 +40,7 @@
               </div>
 
               <div class="btn_container">
-                <a href="https://testflight.apple.com/join/CF5m6t5H">
+                <a href="https://testflight.apple.com/join/vc9oVcJK">
                   <div class="project_btn">Testflight</div>
                 </a>
                 <a href="https://github.com/arisa-hirata/pollways">
@@ -121,7 +121,7 @@
             src="/img/Pollways/taskmodel.png"
             alt="taskmodel"
             class="main_img Yshadow"
-            style="max-width: 470px"
+            style="max-width: 470px; margin-top:5%;"
           >
           <p class="capture" style="text-align:center;">Task Model</p>
         </div>
@@ -137,10 +137,22 @@
             src="/img/Pollways/mockups.png"
             alt="Pollways"
             class="main_img Yshadow"
-            style="max-width: 500px"
+            style="max-width: 500px;  margin-top:5%;"
           >
           <p class="capture" style="text-align:center;">Mockups</p>
         </div>
+      </div>
+    </div>
+
+    <div class="project_content whiteBg">
+      <div class="box">
+        <h3 class="project_subtitle">
+          <span class="under">Download the app!</span>
+        </h3>
+        <h4>You can download the test-flight version of Pollways!</h4>
+      </div>
+      <div class="box">
+        <img src="/img/Pollways/qrcode.png" alt="QR Code" class="qrcode">
       </div>
     </div>
 
@@ -228,6 +240,10 @@ p {
 
 .main_img {
   margin-top: -30px;
+}
+
+.qrcode {
+  width: 50%;
 }
 
 @media screen and (max-width: 834px) and (orientation: portrait) {
