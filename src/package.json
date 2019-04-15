@@ -14,7 +14,8 @@
     "cross-env": "^5.2.0",
     "nuxt": "^2.3.4",
     "vue-scrollto": "^2.13.0",
-    "vue-scroll": "^2.1.9"
+    "vue-scroll": "^2.1.9",
+    "aos": "^2.3.4"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"

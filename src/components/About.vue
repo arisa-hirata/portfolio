@@ -3,19 +3,19 @@
     <hr class="orange_border">
 
     <div class="content">
-      <div class="title_container">
+      <div class="title_container" data-aos="fade-up" data-aos-easing="ease">
         <h2 class="content_title">About Me</h2>
         <hr class="yellow_border">
       </div>
 
-      <div class="about_container" v-scroll="handleScroll2">
-        <div class="img_container">
+      <div class="about_container">
+        <div class="img_container" data-aos="fade-right" data-aos-easing="ease">
           <img src="/img/Profile.jpg" alt="Profile" class="profile_img">
         </div>
 
-        <div class="vertical_line"></div>
+        <div class="vertical_line" data-aos="fade-right" data-aos-easing="ease"></div>
 
-        <div class="desc">
+        <div class="desc" data-aos="fade-left" data-aos-easing="ease">
           <h3>
             Hello, I am
             <span style="color: #14a79c;">Arisa</span>.
@@ -27,66 +27,143 @@
         </div>
       </div>
 
-      <div class="orange_marker"></div>
-      <h3 class="skills" v-scroll="handleScroll2">What I Use</h3>
-      <div class="skills_container" v-scroll="handleScroll2">
-        <img src="/img/icons/html.svg" class="skill_icons" alt="html">
-        <img src="/img/icons/css.svg" class="skill_icons" alt="css3">
-        <img src="/img/icons/js.svg" class="skill_icons" alt="js">
-        <img src="/img/icons/jquery.svg" class="skill_icons" alt="jquery">
-        <img src="/img/icons/react.svg" class="skill_icons" alt="react">
-        <img src="/img/icons/redux.svg" class="skill_icons" alt="redux">
-        <img src="/img/icons/vue.svg" class="skill_icons" alt="vue">
-        <img src="/img/icons/nuxt.svg" class="skill_icons" alt="nuxt">
-        <img src="/img/icons/firebase.svg" class="skill_icons" alt="firebase">
-        <img src="/img/icons/node.svg" class="skill_icons" alt="node">
-        <img src="/img/icons/git.svg" class="skill_icons" alt="git">
-        <img src="/img/icons/wordpress.svg" class="skill_icons" alt="wordpress">
-        <img src="/img/icons/php.svg" class="skill_icons" alt="php">
-        <img src="/img/icons/mysql.svg" class="skill_icons" alt="mysql">
-        <img src="/img/icons/ai.svg" class="skill_icons" alt="ai">
-        <img src="/img/icons/ps.svg" class="skill_icons" alt="ps">
+      <h3 class="skills" data-aos="fade-up" data-aos-easing="ease">What I Use</h3>
+      <div class="orange_marker" data-aos="fade-up" data-aos-easing="ease"></div>
+      <div class="skills_container" data-aos="fade-up" data-aos-easing="ease">
+        <img
+          src="/img/icons/html.svg"
+          class="skill_icons"
+          alt="html"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+        >
+        <img
+          src="/img/icons/css.svg"
+          class="skill_icons"
+          alt="css3"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="50"
+        >
+        <img
+          src="/img/icons/js.svg"
+          class="skill_icons"
+          alt="js"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="150"
+        >
+        <img
+          src="/img/icons/jquery.svg"
+          class="skill_icons"
+          alt="jquery"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="200"
+        >
+        <img
+          src="/img/icons/react.svg"
+          class="skill_icons"
+          alt="react"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="250"
+        >
+        <img
+          src="/img/icons/redux.svg"
+          class="skill_icons"
+          alt="redux"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="300"
+        >
+        <img
+          src="/img/icons/vue.svg"
+          class="skill_icons"
+          alt="vue"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="350"
+        >
+        <img
+          src="/img/icons/nuxt.svg"
+          class="skill_icons"
+          alt="nuxt"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="400"
+        >
+        <img
+          src="/img/icons/firebase.svg"
+          class="skill_icons"
+          alt="firebase"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="450"
+        >
+        <img
+          src="/img/icons/node.svg"
+          class="skill_icons"
+          alt="node"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="500"
+        >
+        <img
+          src="/img/icons/git.svg"
+          class="skill_icons"
+          alt="git"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="550"
+        >
+        <img
+          src="/img/icons/wordpress.svg"
+          class="skill_icons"
+          alt="wordpress"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="600"
+        >
+        <img
+          src="/img/icons/php.svg"
+          class="skill_icons"
+          alt="php"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="650"
+        >
+        <img
+          src="/img/icons/mysql.svg"
+          class="skill_icons"
+          alt="mysql"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="700"
+        >
+        <img
+          src="/img/icons/ai.svg"
+          class="skill_icons"
+          alt="ai"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="750"
+        >
+        <img
+          src="/img/icons/ps.svg"
+          class="skill_icons"
+          alt="ps"
+          data-aos="flip-left"
+          data-aos-easing="ease"
+          data-aos-delay="800"
+        >
       </div>
     </div>
   </section>
 </template>
 
 <script>
-export default {
-  methods: {
-    handleScroll: function(evt, el) {
-      console.log(window.scrollY);
-      if (window.scrollY > 100) {
-        el.setAttribute(
-          "style",
-          "opacity: 1; transform: translate3d(100px, 0px, 0)"
-        );
-      }
-      // return window.scrollY > 100;
-    },
-    handleScroll_border: function(evt, el) {
-      console.log(window.scrollY);
-      if (window.scrollY > 50) {
-        el.setAttribute(
-          "style",
-          "opacity: 1; transform: translate3d(1000px, 0px, 0); width:100%"
-        );
-      }
-      // return window.scrollY > 100;
-    },
-
-    handleScroll2: function(evt, el) {
-      console.log(window.scrollY);
-      if (window.scrollY > 50) {
-        el.setAttribute(
-          "style",
-          "opacity: 1; transform: translate3d(0, -100px, 0);"
-        );
-      }
-      // return window.scrollY > 100;
-    }
-  }
-};
+export default {};
 </script>
 
 
@@ -110,9 +187,6 @@ export default {
   margin-left: auto;
   margin-right: auto;
   margin-top: 120px;
-  opacity: 0;
-  transition: 1s all cubic-bezier(0.39, 0.575, 0.565, 1);
-  transition-delay: 0.7s;
 }
 
 .img_container {
@@ -158,9 +232,6 @@ export default {
 .skills {
   font-size: 2em;
   letter-spacing: 0.1em;
-  opacity: 0;
-  transition: 1s all cubic-bezier(0.39, 0.575, 0.565, 1);
-  transition-delay: 1.2s;
 }
 
 .orange_marker {
@@ -197,9 +268,6 @@ export default {
   box-shadow: 0px 2px 8px #dbdbdb;
   padding: 10px 0;
   margin-bottom: 70px;
-  opacity: 0;
-  transition: 1s all cubic-bezier(0.39, 0.575, 0.565, 1);
-  transition-delay: 1.5s;
 }
 
 .skills_container div {
