@@ -2,14 +2,19 @@
   <section id="project" class="container">
     <hr class="orange_border">
     <div class="content">
-      <div class="title_container">
+      <div
+        class="title_container"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+        data-aos-duration="10"
+      >
         <h2 class="content_title">Projects</h2>
         <hr class="yellow_border">
       </div>
     </div>
 
     <div id="app">
-      <div class="title-container">
+      <div class="title-container" data-aos="fade-right" data-aos-easing="ease">
         <div class="filters">
           <span
             class="filter"
@@ -41,6 +46,8 @@
             v-if="project.categories.includes(currentFilter) || currentFilter === 'ALL'"
             v-bind:key="project.title"
             v-for="project in projects"
+            data-aos="flip-up"
+            data-aos-easing="ease"
           >
             <nuxt-link :to="project.link" style="text-decoration: none;">
               <div class="project-image-wrapper">

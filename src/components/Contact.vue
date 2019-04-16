@@ -1,7 +1,7 @@
 <template>
   <section id="contact" class="container">
     <hr class="orange_border">
-    <div class="content">
+    <div class="content" data-aos="zoom-in-up" data-aos-easing="ease" data-aos-duration="10">
       <div class="title_container">
         <h2 class="content_title">Contact</h2>
         <hr class="yellow_border">
@@ -11,12 +11,12 @@
     <div class="contact_container">
       <div class="icon_container">
         <a href="mailto:arisa.pirata@gmail.com">
-          <div class="icons">
+          <div class="icons" data-aos="flip-left" data-aos-delay="150">
             <svg id="Layer_1" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
               <style>
-                .st0 {
-                  fill: #fdd23e;
-                }
+  .st0 {
+    fill: #fdd23e;
+  }
               </style>
               <path
                 class="st0"
@@ -34,7 +34,7 @@
           </div>
         </a>
         <a href="https://www.linkedin.com/in/arisa-hirata-66b25714b/">
-          <div class="icons">
+          <div class="icons" data-aos="flip-left" data-aos-delay="100">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 99.4 99.8">
               <path
                 d="M93.9 5.6C90.3 2 85.9.1 80.7.1h-62C13.6.1 9.2 1.9 5.5 5.6S0 13.6 0 18.8v62.1c0 5.1 1.8 9.5 5.5 13.2 3.6 3.6 8 5.5 13.2 5.5h62.1c5.1 0 9.5-1.8 13.2-5.5 3.6-3.6 5.5-8 5.5-13.2V18.7c-.1-5.1-1.9-9.5-5.6-13.1zM30.3 83.3H15.4V38.4h14.9v44.9zM29 30.1c-1.6 1.5-3.6 2.2-6.1 2.2h-.1c-2.4 0-4.4-.7-6-2.2-1.5-1.5-2.3-3.3-2.3-5.5s.8-4.1 2.4-5.6c1.6-1.5 3.6-2.2 6.1-2.2 2.5 0 4.5.7 6 2.2 1.5 1.5 2.3 3.3 2.3 5.6 0 2.2-.8 4-2.3 5.5zm55.1 53.2h-15v-24c0-6.8-2.5-10.1-7.5-10.1-1.9 0-3.5.5-4.8 1.6S54.6 53 54 54.6c-.3.8-.5 2-.5 3.6v25.1H38.6c.1-27.1.1-42 0-44.9h14.9v6.3c3.1-4.9 7.6-7.4 13.4-7.4 5.2 0 9.3 1.7 12.5 5.1 3.1 3.4 4.7 8.4 4.7 15.1v25.8z"
@@ -44,12 +44,12 @@
           </div>
         </a>
         <a href="https://github.com/arisa-hirata">
-          <div class="icons">
+          <div class="icons" data-aos="flip-left" data-aos-delay="50">
             <svg id="Layer_1" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
               <style>
-                .st0 {
-                  fill: #fdd23e;
-                }
+  .st0 {
+    fill: #fdd23e;
+  }
               </style>
               <path
                 class="st0"
@@ -61,7 +61,7 @@
           </div>
         </a>
         <a href="https://www.instagram.com/arisa_pirata/">
-          <div class="icons">
+          <div class="icons" data-aos="flip-left">
             <svg
               id="Layer_1"
               class="icon"
@@ -69,9 +69,9 @@
               viewBox="0 0 99.5 99.5"
             >
               <style>
-                .st0 {
-                  fill: #fdd23e;
-                }
+  .st0 {
+    fill: #fdd23e;
+  }
               </style>
               <path
                 class="st0"
@@ -86,7 +86,12 @@
         </a>
       </div>
 
-      <div class="arrow_container">
+      <div
+        class="arrow_container"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+        data-aos-duration="30"
+      >
         <a href="#" v-scroll-to="'#home'">
           <div class="arrow_box">
             <svg class="arrow" viewBox="0 0 451.8 451.8">

@@ -3,7 +3,12 @@
     <hr class="orange_border">
 
     <div class="content">
-      <div class="title_container" data-aos="fade-up" data-aos-easing="ease">
+      <div
+        class="title_container"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+        data-aos-duration="10"
+      >
         <h2 class="content_title">About Me</h2>
         <hr class="yellow_border">
       </div>
@@ -186,7 +191,7 @@ export default {};
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 120px;
+  margin-top: 50px;
 }
 
 .img_container {
