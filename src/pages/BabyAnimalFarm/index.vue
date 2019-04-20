@@ -6,20 +6,20 @@
       <div class="white"></div>
 
       <div class="project_container gray_top">
-        <div class="title_container">
+        <div class="title_container" data-aos="zoom-in-up" data-aos-easing="ease">
           <h2 class="content_title">Baby Animal Farm</h2>
           <hr class="yellow_border">
         </div>
 
         <div class="project_content">
-          <div class="box firstL_content">
+          <div class="box" data-aos="fade-right" data-aos-easing="ease" data-aos-delay="500">
             <img
               src="/img/BabyAnimalFarm/BabyAnimalFarm.png"
               alt="Baby Animal Farm"
               class="main_img"
             >
           </div>
-          <div class="box firstR_content">
+          <div class="box" data-aos="fade-left" data-aos-easing="ease" data-aos-delay="500">
             <div class="detail_container">
               <div class="details">
                 <div class="details_left">
@@ -58,14 +58,15 @@
     </div>
 
     <div class="project_content whiteBg">
-      <div class="projectDeskL secondL_content">
+      <div class="projectDeskL" data-aos="fade-right" data-aos-easing="ease">
         <h3 class="project_subtitle">
-          <span class="under">What is
+          <span class="under">
+            What is
             <br>Baby Animal Farm?
           </span>
         </h3>
       </div>
-      <div class="projectDeskR secondR_content">
+      <div class="projectDeskR" data-aos="fade-left" data-aos-easing="ease">
         <div class="para">
           <div>
             <p>
@@ -81,7 +82,7 @@
     </div>
 
     <div class="project_content yellowBG">
-      <div class="box">
+      <div class="box" data-aos="fade-down-right" data-aos-easing="ease">
         <img
           src="/img/BabyAnimalFarm/convo.png"
           alt="convo"
@@ -90,7 +91,7 @@
         >
         <p class="capture" style="text-align:center;">Conversation Scene</p>
       </div>
-      <div class="box">
+      <div class="box" data-aos="fade-down-left" data-aos-easing="ease" data-aos-delay="300">
         <img
           src="/img/BabyAnimalFarm/quiz.png"
           alt="quiz"
@@ -101,14 +102,14 @@
       </div>
     </div>
 
-    <div class="projectDeskR-2 resp" v-scroll="handleScrollR">
+    <div class="projectDeskR-2 resp" data-aos="fade-left" data-aos-easing="ease">
       <h3 class="project_subtitle">
         <span class="under">CHALLENGES</span>
       </h3>
     </div>
 
     <div class="project_content whiteBg">
-      <div class="projectDeskL-2">
+      <div class="projectDeskL-2" data-aos="fade-right" data-aos-easing="ease">
         <div class="para">
           <p>
             Baby Animal Farm was the combined final project for 2 courses in my second term at BCIT.
@@ -116,7 +117,7 @@
           </p>
         </div>
       </div>
-      <div class="projectDeskR-2 web" v-scroll="handleScrollR">
+      <div class="projectDeskR-2 web" data-aos="fade-left" data-aos-easing="ease">
         <h3 class="project_subtitle">
           <span class="under">CHALLENGES</span>
         </h3>
@@ -124,8 +125,18 @@
     </div>
 
     <div class="greenBg">
-      <h3 class="project_subtitle" style="margin-top:10%;padding-top:5%;color: #fff;">PROCESS</h3>
-      <hr class="border_short" style="border: 2px solid #fdd23e;">
+      <h3
+        class="project_subtitle"
+        style="margin-top:10%;padding-top:5%;color: #fff;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >PROCESS</h3>
+      <hr
+        class="border_short"
+        style="border: 2px solid #fdd23e;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >
       <div
         class="project_content"
         style="width:90%;max-width:1200px; margin-right:auto;margin-left:auto;"
@@ -136,6 +147,8 @@
             alt="BabyAnimalFarm"
             class="main_img Yshadow"
             style="max-width: 400px"
+            data-aos="flip-left"
+            data-aos-easing="ease"
           >
           <p class="capture" style="text-align:center;">Logo & Color Pallete</p>
           <img
@@ -143,6 +156,9 @@
             alt="Pollways"
             class="main_img Yshadow"
             style="max-width: 450px"
+            data-aos="flip-left"
+            data-aos-easing="ease"
+            data-aos-delay="300"
           >
           <p class="capture" style="text-align:center;">Logo Design Process</p>
         </div>
@@ -151,6 +167,8 @@
             src="/img/BabyAnimalFarm/originalDesign.png"
             alt="taskmodel"
             class="main_img Yshadow"
+            data-aos="flip-left"
+            data-aos-easing="ease"
           >
           <p class="capture" style="text-align:center;">Original Character Designs</p>
           <img
@@ -158,6 +176,9 @@
             alt="taskmodel"
             class="main_img Yshadow"
             style="max-width: 400px;"
+            data-aos="flip-left"
+            data-aos-easing="ease"
+            data-aos-delay="300"
           >
           <p class="capture" style="text-align:center;">User Persona</p>
         </div>
