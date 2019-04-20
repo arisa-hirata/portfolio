@@ -149,7 +149,6 @@
             style="max-width: 470px; margin-top:5%;"
             data-aos="flip-left"
             data-aos-easing="ease"
-            data-aos-delay="300"
           >
           <p class="capture" style="text-align:center;">Task Model</p>
         </div>
@@ -161,6 +160,7 @@
             style="max-width: 500px"
             data-aos="flip-left"
             data-aos-easing="ease"
+            data-aos-delay="100"
           >
           <p class="capture" style="text-align:center;">Wireframes</p>
           <img
@@ -170,7 +170,7 @@
             style="max-width: 500px;  margin-top:5%;"
             data-aos="flip-left"
             data-aos-easing="ease"
-            data-aos-delay="300"
+            data-aos-delay="100"
           >
           <p class="capture" style="text-align:center;">Mockups</p>
         </div>

@@ -250,21 +250,21 @@ p {
 }
 
 .projectDeskL {
-  width: 35%;
+  width: 30%;
   text-align: right;
 }
 
 .projectDeskR {
-  width: 65%;
+  width: 70%;
 }
 
 .projectDeskL-2 {
-  width: 65%;
+  width: 70%;
   text-align: right;
 }
 
 .projectDeskR-2 {
-  width: 35%;
+  width: 30%;
   text-align: left;
   margin-left: 1%;
 }

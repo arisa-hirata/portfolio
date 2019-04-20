@@ -6,16 +6,16 @@
       <div class="white"></div>
 
       <div class="project_container gray_top">
-        <div class="title_container">
+        <div class="title_container" data-aos="zoom-in-up" data-aos-easing="ease">
           <h2 class="content_title">Hot Spring Seekers</h2>
           <hr class="yellow_border">
         </div>
 
         <div class="project_content">
-          <div class="box firstL_content">
+          <div class="box" data-aos="fade-right" data-aos-easing="ease" data-aos-delay="500">
             <img src="/img/HotSpring/HotSpring.png" alt="HotSpring" class="main_img">
           </div>
-          <div class="box firstR_content">
+          <div class="box" data-aos="fade-left" data-aos-easing="ease" data-aos-delay="500">
             <div class="detail_container">
               <div class="details">
                 <div class="details_left">
@@ -52,14 +52,15 @@
     </div>
 
     <div class="project_content whiteBg">
-      <div class="projectDeskL secondL_content">
-        <h3 class="project_subtitle">
-          <span class="under">What is
+      <div class="projectDeskL">
+        <h3 class="project_subtitle" data-aos="fade-right" data-aos-easing="ease">
+          <span class="under">
+            What is
             <br>Hot Spring Seekers?
           </span>
         </h3>
       </div>
-      <div class="projectDeskR secondR_content">
+      <div class="projectDeskR" data-aos="fade-left" data-aos-easing="ease">
         <div class="para">
           <div>
             <p>This website is about hot spring information developer by wordpress. The website has both information about world hot springs and Japanese hot springs. In terms of world hot springs, it is described recommended world hot springs. When it comes to Japanese hot springs, this information is not only about places, but also hot springs’ effect on health. Also, it is explained about Japanese hot springs’ culture.</p>
@@ -69,8 +70,18 @@
     </div>
 
     <div class="greenBg">
-      <h3 class="project_subtitle" style="margin-top:10%;padding-top:5%;color: #fff;">PROCESS</h3>
-      <hr class="border_short" style="border: 2px solid #fdd23e;">
+      <h3
+        class="project_subtitle"
+        style="margin-top:10%;padding-top:5%;color: #fff;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >PROCESS</h3>
+      <hr
+        class="border_short"
+        style="border: 2px solid #fdd23e;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >
       <div
         class="project_content"
         style="width:90%;max-width:1200px; margin-right:auto;margin-left:auto;"
@@ -81,6 +92,8 @@
             alt="BabyAnimalFarm"
             class="main_img Yshadow"
             style="max-width: 600px"
+            data-aos="flip-left"
+            data-aos-easing="ease"
           >
           <p class="capture" style="text-align:center;">User Persona</p>
           <img
@@ -88,6 +101,8 @@
             alt="Pollways"
             class="main_img Yshadow"
             style="max-width: 600px"
+            data-aos="flip-left"
+            data-aos-easing="ease"
           >
           <p class="capture" style="text-align:center;">Task Model</p>
         </div>
@@ -97,6 +112,9 @@
             alt="taskmodel"
             class="main_img Yshadow"
             style="max-width: 400px"
+            data-aos="flip-left"
+            data-aos-easing="ease"
+            data-aos-delay="100"
           >
           <p class="capture" style="text-align:center;">Sitemap</p>
           <img
@@ -104,6 +122,9 @@
             alt="taskmodel"
             class="main_img Yshadow"
             style="max-width: 450px;"
+            data-aos="flip-left"
+            data-aos-easing="ease"
+            data-aos-delay="100"
           >
           <p class="capture" style="text-align:center;">Style Tile</p>
         </div>

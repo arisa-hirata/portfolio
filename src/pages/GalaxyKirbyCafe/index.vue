@@ -5,16 +5,22 @@
       <div class="white"></div>
 
       <div class="project_container gray_top">
-        <div class="title_container">
+        <div class="title_container" data-aos="zoom-in-up" data-aos-easing="ease">
           <h2 class="content_title">Galaxy Kirby Cafe</h2>
           <hr class="yellow_border">
         </div>
 
         <div class="project_content" style="margin-bottom:3%">
-          <div class="box firstL_content">
+          <div class="box" data-aos="fade-right" data-aos-easing="ease" data-aos-delay="500">
             <img src="/img/Kirby/kirby.png" alt="kirby" class="main_img" style="width:50%;">
           </div>
-          <div class="box firstR_content" style="margin-top:5%;">
+          <div
+            class="box"
+            style="margin-top:5%;"
+            data-aos="fade-left"
+            data-aos-easing="ease"
+            data-aos-delay="500"
+          >
             <div class="detail_container">
               <div class="details">
                 <div class="details_left">
@@ -35,7 +41,7 @@
                   <p>Graphic Designer</p>
                   <p>BCIT Term3</p>
                   <p>3 weeks in November 2018</p>
-                  <p>Adobe Photoshop</p>
+                  <p>Adobe Photoshop & Illustrator</p>
                 </div>
               </div>
             </div>
@@ -45,12 +51,12 @@
     </div>
 
     <div class="project_content whiteBg">
-      <div class="projectDeskL secondL_content">
+      <div class="projectDeskL" data-aos="fade-right" data-aos-easing="ease">
         <h3 class="project_subtitle resp_space">
           <span class="under">BACKGROUND</span>
         </h3>
       </div>
-      <div class="projectDeskR secondR_content">
+      <div class="projectDeskR" data-aos="fade-left" data-aos-easing="ease">
         <div class="para">
           <div class="desc">
             <p>This is an advertising poster for a fictional concept cafe, named “Galaxy Kirby Cafe” which is owned by Chef Kirby and his friends. Kirby cooks and serves food with Warp Star which can fly quickly even in the space. However, he usually eats everything before he serves for customers because he loves to eat so much!</p>
@@ -60,8 +66,18 @@
     </div>
 
     <div class="tutorial_container greenBg" style="margin-top:0;">
-      <h3 class="project_subtitle" style="color:#fff;">PROCESS</h3>
-      <hr class="border_short" style="border: 2px solid #fdd23e;">
+      <h3
+        class="project_subtitle"
+        style="color:#fff;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >PROCESS</h3>
+      <hr
+        class="border_short"
+        style="border: 2px solid #fdd23e;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >
       <img
         class="tutorial"
         src="/img/Kirby/kirby.gif"
@@ -71,15 +87,24 @@
         align="center"
         hspace="10"
         vspace="10"
+        data-aos="flip-up"
+        data-aos-easing="ease"
       >
     </div>
 
     <div class="whiteBg" style="width:90% max-width:1200px;">
-      <h3 class="project_subtitle">
+      <h3 class="project_subtitle" data-aos="fade-down-right" data-aos-easing="ease">
         <span class="under">FINAL PRODUCT</span>
       </h3>
 
-      <img src="/img/Kirby/kirby.png" alt="penguin" style="width:100%; max-width:600px">
+      <img
+        src="/img/Kirby/kirbyL.png"
+        alt="penguin"
+        style="width:100%; max-width:600px"
+        data-aos="fade-down-left"
+        data-aos-easing="ease"
+        data-aos-delay="300"
+      >
     </div>
 
     <Footer/>

@@ -6,16 +6,16 @@
       <div class="white"></div>
 
       <div class="project_container gray_top">
-        <div class="title_container">
+        <div class="title_container" data-aos="zoom-in-up" data-aos-easing="ease">
           <h2 class="content_title">Easter Ecard</h2>
           <hr class="yellow_border">
         </div>
 
         <div class="project_content">
-          <div class="box">
+          <div class="box" data-aos="fade-right" data-aos-easing="ease" data-aos-delay="500">
             <img src="/img/Ecard/EasterEcard.png" alt="Ecard" class="main_img">
           </div>
-          <div class="box">
+          <div class="box" data-aos="fade-left" data-aos-easing="ease" data-aos-delay="500">
             <div class="detail_container">
               <div class="details">
                 <div class="details_left">
@@ -58,12 +58,12 @@
     </div>
 
     <div class="project_content whiteBg">
-      <div class="projectDeskL secondL_content">
+      <div class="projectDeskL" data-aos="fade-right" data-aos-easing="ease">
         <h3 class="project_subtitle">
           <span class="under">What is Easter Ecard?</span>
         </h3>
       </div>
-      <div class="projectDeskR secondR_content">
+      <div class="projectDeskR secondR_content" data-aos="fade-left" data-aos-easing="ease">
         <div class="para">
           <div>
             <p>This is an interactive e-card for Easter. There are 10 eggs, some hidden others more obvious. When you find an egg, you can learn a fun fact about Easter. When you find all 10 eggs Easter bunnies celebrate by dancing.</p>
@@ -73,7 +73,7 @@
     </div>
 
     <div class="project_content yellowBG">
-      <div class="box">
+      <div class="box" data-aos="fade-down-right" data-aos-easing="ease">
         <img
           src="/img/Ecard/1ststage.png"
           alt="convo"
@@ -82,7 +82,7 @@
         >
         <p class="capture" style="text-align:center;">1st Stage Answers</p>
       </div>
-      <div class="box">
+      <div class="box" data-aos="fade-down-left" data-aos-easing="ease" data-aos-delay="300">
         <img
           src="/img/Ecard/2ndstage.png"
           alt="quiz"
@@ -93,19 +93,19 @@
       </div>
     </div>
 
-    <div class="projectDeskR-2 resp" v-scroll="handleScrollR">
+    <div class="projectDeskR-2 resp" data-aos="fade-left" data-aos-easing="ease">
       <h3 class="project_subtitle bottom_space">
         <span class="under">CHALLENGES</span>
       </h3>
     </div>
 
-    <div class="project_content whiteBg">
+    <div class="project_content whiteBg" data-aos="fade-right" data-aos-easing="ease">
       <div class="projectDeskL-2">
         <div class="para">
           <p>This e-card was a midterm project for one of my classes at BCIT. We were required to implement 10 facts about a holiday of our choosing. These facts were to be hidden throughout the application, with the user having to interact with the application in order to discover them.</p>
         </div>
       </div>
-      <div class="projectDeskR-2 web">
+      <div class="projectDeskR-2 web" data-aos="fade-left" data-aos-easing="ease">
         <h3 class="project_subtitle">
           <span class="under">CHALLENGES</span>
         </h3>

@@ -5,16 +5,22 @@
       <div class="white"></div>
 
       <div class="project_container gray_top">
-        <div class="title_container">
+        <div class="title_container" data-aos="zoom-in-up" data-aos-easing="ease">
           <h2 class="content_title">My Iconic World</h2>
           <hr class="yellow_border">
         </div>
 
         <div class="project_content" style="margin-bottom:3%">
-          <div class="box firstL_content">
+          <div class="box" data-aos="fade-right" data-aos-easing="ease" data-aos-delay="500">
             <img src="/img/Iconic/iconicWorld.jpg" alt="Pollways" class="main_img">
           </div>
-          <div class="box firstR_content" style="margin-top:5%;">
+          <div
+            class="box"
+            style="margin-top:5%;"
+            data-aos="fade-left"
+            data-aos-easing="ease"
+            data-aos-delay="500"
+          >
             <div class="detail_container">
               <div class="details">
                 <div class="details_left">
@@ -45,12 +51,12 @@
     </div>
 
     <div class="project_content whiteBg">
-      <div class="projectDeskL secondL_content">
+      <div class="projectDeskL" data-aos="fade-right" data-aos-easing="ease">
         <h3 class="project_subtitle resp_space">
           <span class="under">BACKGROUND</span>
         </h3>
       </div>
-      <div class="projectDeskR secondR_content">
+      <div class="projectDeskR" data-aos="fade-left" data-aos-easing="ease">
         <div class="para">
           <div class="desc">
             <p>
@@ -63,8 +69,18 @@
     </div>
 
     <div class="tutorial_container greenBg" style="margin-top:0;">
-      <h3 class="project_subtitle" style="color:#fff;">PROCESS</h3>
-      <hr class="border_short" style="border: 2px solid #fdd23e;">
+      <h3
+        class="project_subtitle"
+        style="color:#fff;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >PROCESS</h3>
+      <hr
+        class="border_short"
+        style="border: 2px solid #fdd23e;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >
       <img
         class="tutorial"
         src="/img/Iconic/iconic.gif"
@@ -74,15 +90,24 @@
         align="center"
         hspace="10"
         vspace="10"
+        data-aos="flip-up"
+        data-aos-easing="ease"
       >
     </div>
 
     <div class="whiteBg" style="width:90% max-width:1200px;">
-      <h3 class="project_subtitle">
+      <h3 class="project_subtitle" data-aos="fade-down-right" data-aos-easing="ease">
         <span class="under">FINAL PRODUCT</span>
       </h3>
 
-      <img src="/img/Iconic/iconicWorld.jpg" alt="penguin" style="width:100%; max-width:900px">
+      <img
+        src="/img/Iconic/iconicWorldL.jpg"
+        alt="penguin"
+        style="width:100%; max-width:900px"
+        data-aos="fade-down-left"
+        data-aos-easing="ease"
+        data-aos-delay="300"
+      >
     </div>
 
     <Footer/>
@@ -98,44 +123,7 @@ export default {
     Header2,
     Footer
   },
-  methods: {
-    handleScrollL: function(evt, el) {
-      if (window.scrollY > 400) {
-        el.setAttribute(
-          "style",
-          "opacity: 1; transform: translate3d(800px, 0, 0)"
-        );
-      }
-      // return window.scrollY > 100;
-    },
-    handleScrollR: function(evt, el) {
-      if (window.scrollY > 400) {
-        el.setAttribute(
-          "style",
-          "opacity: 1; transform: translate3d(-800px, 0, 0)"
-        );
-      }
-      // return window.scrollY > 100;
-    },
-    handleScrollL2: function(evt, el) {
-      if (window.scrollY > 400) {
-        el.setAttribute(
-          "style",
-          "opacity: 1; transform: translate3d(800px, 0, 0)"
-        );
-      }
-      // return window.scrollY > 100;
-    },
-    handleScrollR2: function(evt, el) {
-      if (window.scrollY > 400) {
-        el.setAttribute(
-          "style",
-          "opacity: 1; transform: translate3d(-800px, 0, 0)"
-        );
-      }
-      // return window.scrollY > 100;
-    }
-  }
+  methods: {}
 };
 </script>
 

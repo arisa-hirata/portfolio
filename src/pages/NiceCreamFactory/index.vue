@@ -6,16 +6,16 @@
       <div class="white"></div>
 
       <div class="project_container gray_top">
-        <div class="title_container">
+        <div class="title_container" data-aos="zoom-in-up" data-aos-easing="ease">
           <h2 class="content_title">NiceCream Factory</h2>
           <hr class="yellow_border">
         </div>
 
         <div class="project_content">
-          <div class="box">
+          <div class="box" data-aos="fade-right" data-aos-easing="ease" data-aos-delay="500">
             <img src="/img/NiceCream/NiceCream.png" alt="NiceCream" class="main_img">
           </div>
-          <div class="box">
+          <div class="box" data-aos="fade-left" data-aos-easing="ease" data-aos-delay="500">
             <div class="detail_container">
               <div class="details">
                 <div class="details_left">
@@ -54,17 +54,19 @@
     </div>
 
     <div class="project_content whiteBg">
-      <div class="projectDeskL secondL_content">
+      <div class="projectDeskL" data-aos="fade-right" data-aos-easing="ease">
         <h3 class="project_subtitle" style="margin-top: 0;">
-          <span class="under">What is
+          <span class="under">
+            What is
             <br>NiceCream Factory?
           </span>
         </h3>
       </div>
-      <div class="projectDeskR secondR_content">
+      <div class="projectDeskR" data-aos="fade-left" data-aos-easing="ease">
         <div class="para">
           <div>
-            <p>This is a website for an fictional rolled ice cream shop “Nice Cream Factory“.
+            <p>
+              This is a website for an fictional rolled ice cream shop “Nice Cream Factory“.
               <br>The website is developed with HTML, CSS and jQuery.
             </p>
           </div>
@@ -72,19 +74,19 @@
       </div>
     </div>
 
-    <div class="projectDeskR-2 resp">
+    <div class="projectDeskR-2 resp" data-aos="fade-left" data-aos-easing="ease">
       <h3 class="project_subtitle bottom_space">
         <span class="under">CHALLENGES</span>
       </h3>
     </div>
 
     <div class="project_content whiteBg">
-      <div class="projectDeskL-2">
+      <div class="projectDeskL-2" data-aos="fade-right" data-aos-easing="ease">
         <div class="para">
           <p>This project was a biggest project in my first term at BCIT. The requirements for the project spanned the entire design and development process, including UX research, UI design, and development. We were required to create the branding and style guide for a fictional business, and then create a website. In this project, I was the only person made a responsive website.</p>
         </div>
       </div>
-      <div class="projectDeskR-2">
+      <div class="projectDeskR-2" data-aos="fade-left" data-aos-easing="ease">
         <h3 class="project_subtitle web">
           <span class="under">CHALLENGES</span>
         </h3>
@@ -92,14 +94,26 @@
     </div>
 
     <div class="greenBg">
-      <h3 class="project_subtitle" style="margin-top:10%;padding-top:5%;color: #fff;">PROCESS</h3>
-      <hr class="border_short" style="border: 2px solid #fdd23e;">
+      <h3
+        class="project_subtitle"
+        style="margin-top:10%;padding-top:5%;color: #fff;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >PROCESS</h3>
+      <hr
+        class="border_short"
+        style="border: 2px solid #fdd23e;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >
       <div style="padding-bottom: 3%;">
         <img
           src="/img/NiceCream/wireframes.png"
           alt="BabyAnimalFarm"
           class="main_img Yshadow"
           style="max-width:900px;"
+          data-aos="flip-down"
+          data-aos-easing="ease"
         >
         <p class="capture" style="text-align:center;">Wireframes</p>
         <img
@@ -107,6 +121,8 @@
           alt="Pollways"
           class="main_img Yshadow"
           style="max-width:900px;"
+          data-aos="flip-down"
+          data-aos-easing="ease"
         >
         <p class="capture" style="text-align:center;">Logo Design Process</p>
       </div>
