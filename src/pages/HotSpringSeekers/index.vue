@@ -1,16 +1,13 @@
 <template>
   <section class="project">
     <Header2/>
-
     <div class="gray">
       <div class="white"></div>
-
       <div class="project_container gray_top">
         <div class="title_container" data-aos="zoom-in-up" data-aos-easing="ease">
           <h2 class="content_title">Hot Spring Seekers</h2>
           <hr class="yellow_border">
         </div>
-
         <div class="project_content">
           <div class="box" data-aos="fade-right" data-aos-easing="ease" data-aos-delay="500">
             <img src="/img/HotSpring/HotSpring.png" alt="HotSpring" class="main_img">
@@ -22,7 +19,6 @@
                   <p>
                     <b>Role:</b>
                   </p>
-
                   <p class="line_space1 resp">
                     <b>Client:</b>
                   </p>
@@ -50,7 +46,6 @@
         </div>
       </div>
     </div>
-
     <div class="project_content whiteBg">
       <div class="projectDeskL">
         <h3 class="project_subtitle" data-aos="fade-right" data-aos-easing="ease">
@@ -68,7 +63,6 @@
         </div>
       </div>
     </div>
-
     <div class="greenBg">
       <h3
         class="project_subtitle"
@@ -114,7 +108,6 @@
             style="max-width: 400px"
             data-aos="flip-left"
             data-aos-easing="ease"
-            data-aos-delay="100"
           >
           <p class="capture" style="text-align:center;">Sitemap</p>
           <img
@@ -124,7 +117,6 @@
             style="max-width: 450px;"
             data-aos="flip-left"
             data-aos-easing="ease"
-            data-aos-delay="100"
           >
           <p class="capture" style="text-align:center;">Style Tile</p>
         </div>

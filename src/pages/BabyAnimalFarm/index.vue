@@ -158,7 +158,6 @@
             style="max-width: 450px"
             data-aos="flip-left"
             data-aos-easing="ease"
-            data-aos-delay="300"
           >
           <p class="capture" style="text-align:center;">Logo Design Process</p>
         </div>
@@ -178,7 +177,6 @@
             style="max-width: 400px;"
             data-aos="flip-left"
             data-aos-easing="ease"
-            data-aos-delay="300"
           >
           <p class="capture" style="text-align:center;">User Persona</p>
         </div>

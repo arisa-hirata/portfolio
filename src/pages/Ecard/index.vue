@@ -22,7 +22,6 @@
                   <p>
                     <b>ROLE:</b>
                   </p>
-
                   <p class="line_space web"></p>
                   <p class="line_space resp"></p>
                   <p>
@@ -42,7 +41,6 @@
                   <p>HTML5 / CSS3 / JavaScript /SVG Animation / Adobe Illustrator</p>
                 </div>
               </div>
-
               <div class="btn_container">
                 <a href="https://arisa-hirata.github.io/ecard/">
                   <div class="project_btn">Play</div>

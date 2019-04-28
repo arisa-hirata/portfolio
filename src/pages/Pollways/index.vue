@@ -160,7 +160,6 @@
             style="max-width: 500px"
             data-aos="flip-left"
             data-aos-easing="ease"
-            data-aos-delay="100"
           >
           <p class="capture" style="text-align:center;">Wireframes</p>
           <img
@@ -170,7 +169,6 @@
             style="max-width: 500px;  margin-top:5%;"
             data-aos="flip-left"
             data-aos-easing="ease"
-            data-aos-delay="100"
           >
           <p class="capture" style="text-align:center;">Mockups</p>
         </div>
@@ -206,48 +204,9 @@ export default {
   components: {
     Header2,
     Footer
-  },
-  methods: {
-    handleScrollL: function(evt, el) {
-      if (window.scrollY > 400) {
-        el.setAttribute(
-          "style",
-          "opacity: 1; transform: translate3d(800px, 0, 0)"
-        );
-      }
-      // return window.scrollY > 100;
-    },
-    handleScrollR: function(evt, el) {
-      if (window.scrollY > 400) {
-        el.setAttribute(
-          "style",
-          "opacity: 1; transform: translate3d(-800px, 0, 0)"
-        );
-      }
-      // return window.scrollY > 100;
-    },
-    handleScrollL2: function(evt, el) {
-      if (window.scrollY > 400) {
-        el.setAttribute(
-          "style",
-          "opacity: 1; transform: translate3d(800px, 0, 0)"
-        );
-      }
-      // return window.scrollY > 100;
-    },
-    handleScrollR2: function(evt, el) {
-      if (window.scrollY > 400) {
-        el.setAttribute(
-          "style",
-          "opacity: 1; transform: translate3d(-800px, 0, 0)"
-        );
-      }
-      // return window.scrollY > 100;
-    }
   }
 };
 </script>
-
 
 <style scoped>
 .title_container {
@@ -270,10 +229,6 @@ export default {
 
 p {
   text-align: left;
-}
-.tutorial {
-  /* box-shadow: 7px 7px 0px #14a79c; */
-  border: 13px solid #14a79c;
 }
 
 .main_img {

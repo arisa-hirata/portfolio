@@ -32,12 +32,12 @@
     <!-- Hamburger -->
     <div class="burger_menu">
       <nav role="navigation">
-        <a href="#" v-scroll-to="'#home'">
+        <nuxt-link to="/">
           <img src="/img/headerLogo.svg" class="logo">
-        </a>
+        </nuxt-link>
         <div id="menuToggle">
           <input type="checkbox">
-          
+
           <span></span>
           <span></span>
           <span></span>

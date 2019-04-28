@@ -39,16 +39,12 @@ module.exports = {
   /*
    ** Global CSS
    */
-  css: ['~/assets/styles/main.css', { src: '~assets/main.scss', lang: 'scss' }],
+  css: ['~/assets/styles/main.css'],
 
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [
-    '~/plugins/vue-scrollto',
-    '~/plugins/scroll.js',
-    { src: '~/plugins/aos.js', ssr: false }
-  ],
+  plugins: ['~/plugins/vue-scrollto', { src: '~/plugins/aos.js', ssr: false }],
 
   /*
    ** Nuxt.js modules

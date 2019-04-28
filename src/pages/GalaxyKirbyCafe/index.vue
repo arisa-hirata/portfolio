@@ -103,7 +103,6 @@
         style="width:100%; max-width:600px"
         data-aos="fade-down-left"
         data-aos-easing="ease"
-        data-aos-delay="300"
       >
     </div>
 

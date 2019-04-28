@@ -120,47 +120,6 @@
         </h3>
       </div>
     </div>
-
-    <!-- <div class="greenBg">
-      <h3 class="project_subtitle" style="margin-top:10%;padding-top:5%;color: #fff;">PROCESS</h3>
-      <hr class="border_short" style="border: 2px solid #fdd23e;">
-      <div
-        class="project_content"
-        style="width:90%;max-width:1200px; margin-right:auto;margin-left:auto;"
-      >
-        <div class="box">
-          <img
-            src="/img/BabyAnimalFarm/Logo&Color.png"
-            alt="BabyAnimalFarm"
-            class="main_img Yshadow"
-            style="max-width: 400px"
-          >
-          <p class="capture" style="text-align:center;">Logo & Color Pallete</p>
-          <img
-            src="/img/BabyAnimalFarm/logo_process.png"
-            alt="Pollways"
-            class="main_img Yshadow"
-            style="max-width: 450px"
-          >
-          <p class="capture" style="text-align:center;">Logo Design Process</p>
-        </div>
-        <div class="box">
-          <img
-            src="/img/BabyAnimalFarm/OriginalDesign.png"
-            alt="taskmodel"
-            class="main_img Yshadow"
-          >
-          <p class="capture" style="text-align:center;">Original Character Designs</p>
-          <img
-            src="/img/BabyAnimalFarm/Persona.png"
-            alt="taskmodel"
-            class="main_img Yshadow"
-            style="max-width: 400px;"
-          >
-          <p class="capture" style="text-align:center;">User Persona</p>
-        </div>
-      </div>
-    </div>-->
     <Footer/>
   </section>
 </template>
@@ -173,11 +132,6 @@ export default {
   components: {
     Header2,
     Footer
-  },
-  methods: {
-    handleClick() {
-      alert("Coming Soon!");
-    }
   }
 };
 </script>

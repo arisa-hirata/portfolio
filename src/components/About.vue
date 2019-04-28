@@ -199,22 +199,23 @@ export default {};
 }
 
 .profile_img {
-  width: 250px;
-  margin-top: 13%;
+  width: 300px;
+  margin-top: 5%;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   box-shadow: 5px 8px 0px #fdd23e;
 }
 
 .vertical_line {
   margin-top: auto;
   margin-bottom: auto;
-  margin-right: 50px;
-  margin-left: 30px;
+  margin-right: 25px;
+  margin-left: 15px;
   width: 1px;
   height: 300px;
-  background-color: #dbdbdb;
+  /* background-color: #dbdbdb; */
+  background: #f2f2f3;
   display: block;
 }
 

@@ -1,16 +1,13 @@
 <template>
   <section class="project">
     <Header2/>
-
     <div class="gray">
       <div class="white"></div>
-
       <div class="project_container gray_top">
         <div class="title_container" data-aos="zoom-in-up" data-aos-easing="ease">
           <h2 class="content_title">NiceCream Factory</h2>
           <hr class="yellow_border">
         </div>
-
         <div class="project_content">
           <div class="box" data-aos="fade-right" data-aos-easing="ease" data-aos-delay="500">
             <img src="/img/NiceCream/NiceCream.png" alt="NiceCream" class="main_img">
@@ -52,7 +49,6 @@
         </div>
       </div>
     </div>
-
     <div class="project_content whiteBg">
       <div class="projectDeskL" data-aos="fade-right" data-aos-easing="ease">
         <h3 class="project_subtitle" style="margin-top: 0;">
@@ -73,13 +69,11 @@
         </div>
       </div>
     </div>
-
     <div class="projectDeskR-2 resp" data-aos="fade-left" data-aos-easing="ease">
       <h3 class="project_subtitle bottom_space">
         <span class="under">CHALLENGES</span>
       </h3>
     </div>
-
     <div class="project_content whiteBg">
       <div class="projectDeskL-2" data-aos="fade-right" data-aos-easing="ease">
         <div class="para">
@@ -92,7 +86,6 @@
         </h3>
       </div>
     </div>
-
     <div class="greenBg">
       <h3
         class="project_subtitle"

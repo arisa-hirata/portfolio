@@ -40,7 +40,7 @@
       </div>
 
       <div class="projects_container">
-        <transition-group class="projects" name="projects" v-scroll="handleScroll3">
+        <transition-group class="projects" name="projects">
           <div
             class="project"
             v-if="project.categories.includes(currentFilter) || currentFilter === 'ALL'"
@@ -56,7 +56,6 @@
                 <span class="project-title">{{project.title}}</span>
 
                 <div class="skill">{{project.skill}}</div>
-                <div class="coming_soon">{{project.comingsoon}}</div>
               </div>
             </nuxt-link>
           </div>
@@ -78,80 +77,70 @@ export default {
           image: "/img/Filter_Pollways.png",
           categories: ["Developlent"],
           skill: "ReactNative + Firebase",
-          link: "/Pollways",
-          comingsoon: ""
+          link: "/Pollways"
         },
         {
           title: "Baby Animal Farm",
           image: "/img/Filter_BabyAnimalFarm.png",
           categories: ["Developlent", "UI/UX Design", "Graphic Design"],
           skill: "Pure JavaScript",
-          link: "/BabyAnimalFarm",
-          comingsoon: ""
+          link: "/BabyAnimalFarm"
         },
         {
           title: "JAJA",
           image: "/img/Filter_JAJA.png",
           categories: ["Developlent"],
           skill: "Vue + Firebase",
-          link: "/JAJA",
-          comingsoon: ""
+          link: "/JAJA"
         },
         {
           title: "NiceCream Factory",
           image: "/img/Filter_NiceCreamFactory.png",
           categories: ["Developlent", "UI/UX Design", "Graphic Design"],
           skill: "HTML + CSS + jQuery",
-          link: "/NiceCreamFactory",
-          comingsoon: ""
+          link: "/NiceCreamFactory"
         },
         {
           title: "Easter Ecard",
           image: "/img/Filter_EasterEcard.png",
           categories: ["Developlent", "UI/UX Design", "Graphic Design"],
           skill: "Pure Javascript",
-          link: "/Ecard",
-          comingsoon: ""
+          link: "/Ecard"
         },
         {
           title: "Hot Spring Seekers",
           image: "/img/Filter_HotSpring.png",
           categories: ["Developlent", "UI/UX Design"],
           skill: "WordPress",
-          link: "/HotSpringSeekers",
-          comingsoon: ""
+          link: "/HotSpringSeekers"
         },
         {
           title: "Infographic",
           image: "/img/Infographic.png",
           categories: ["Graphic Design"],
           skill: "Illustrator",
-          link: "/Infographic",
-          comingsoon: ""
+          link: "/Infographic"
         },
         {
           title: "My Iconic World",
           image: "/img/Filter_iconicWorld.png",
           categories: ["Graphic Design"],
           skill: "Illustrator",
-          link: "/IconicWorld",
-          comingsoon: ""
+          link: "/IconicWorld"
         },
         {
           title: "Shoepaca Poster",
           image: "/img/Filter_shoepaca.png",
           categories: ["Graphic Design"],
           skill: "Photoshop",
-          link: "/Shoepaca",
-          comingsoon: ""
+          link: "/Shoepaca"
         },
         {
           title: "Galaxy Kirby Cafe",
           image: "/img/KirbyCafe.png",
           categories: ["Graphic Design"],
           skill: "Photoshop",
-          link: "/GalaxyKirbyCafe",
-          comingsoon: ""
+          link: "/GalaxyKirbyCafe"
         }
       ]
     };
@@ -159,30 +148,6 @@ export default {
   methods: {
     setFilter: function(filter) {
       this.currentFilter = filter;
-    },
-    handleScroll: function(evt, el) {
-      if (window.scrollY > 1000) {
-        el.setAttribute(
-          "style",
-          "opacity: 1; transform: translate3d(100px, 0px, 0)"
-        );
-      }
-      // return window.scrollY > 100;
-    },
-    handleScroll_border: function(evt, el) {
-      if (window.scrollY > 1000) {
-        el.setAttribute(
-          "style",
-          "opacity: 1; transform: translate3d(1000px, 0px, 0); width:100%"
-        );
-      }
-      // return window.scrollY > 100;
-    },
-    handleScroll3: function(evt, el) {
-      if (window.scrollY > 1000) {
-        el.setAttribute("style", "opacity: 1; translate3d(0px, -100px, 0);");
-      }
-      // return window.scrollY > 100;
     }
   }
 };
@@ -263,7 +228,6 @@ export default {
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
-  opacity: 0;
   transition: 1.5s all ease-in-out;
   transition-delay: 0.7s;
 }

@@ -106,7 +106,6 @@
         style="width:100%; max-width:900px"
         data-aos="fade-down-left"
         data-aos-easing="ease"
-        data-aos-delay="300"
       >
     </div>
 
@@ -122,8 +121,7 @@ export default {
   components: {
     Header2,
     Footer
-  },
-  methods: {}
+  }
 };
 </script>
 
