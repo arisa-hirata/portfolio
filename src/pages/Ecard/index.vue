@@ -70,25 +70,30 @@
       </div>
     </div>
 
-    <div class="project_content yellowBG">
-      <div class="box" data-aos="fade-down-right" data-aos-easing="ease">
-        <img
-          src="/img/Ecard/1ststage.png"
-          alt="convo"
-          class="main_img"
-          style="box-shadow: 8px 10px 0px #ee815c;"
-        >
-        <p class="capture" style="text-align:center;">1st Stage Answers</p>
-      </div>
-      <div class="box" data-aos="fade-down-left" data-aos-easing="ease" data-aos-delay="300">
-        <img
-          src="/img/Ecard/2ndstage.png"
-          alt="quiz"
-          class="main_img"
-          style="box-shadow: 8px 10px 0px #ee815c;"
-        >
-        <p class="capture" style="text-align:center;">2nd Stage Answers</p>
-      </div>
+    <div class="tutorial_container yellowBG">
+      <h3
+        class="project_subtitle"
+        style="color:#fff;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >How to Play Easter Ecard?</h3>
+      <hr
+        class="border_short"
+        style="border: 2px solid #ee815c;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >
+      <iframe
+        class="tutorial"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/uePNOR_J0wM"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        data-aos="flip-up"
+        data-aos-easing="ease"
+      ></iframe>
     </div>
 
     <div class="projectDeskR-2 resp" data-aos="fade-left" data-aos-easing="ease">
@@ -149,6 +154,9 @@ p {
 }
 .line_space {
   margin-top: 44px;
+}
+.tutorial {
+  border: 13px solid #14a79c;
 }
 
 @media screen and (max-width: 834px) and (orientation: portrait) {

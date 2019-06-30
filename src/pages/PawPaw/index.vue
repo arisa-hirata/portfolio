@@ -56,47 +56,19 @@
     <div class="project_content whiteBg">
       <div class="projectDeskL" data-aos="fade-right" data-aos-easing="ease">
         <h3 class="project_subtitle">
-          <span class="under">
-            What is
-            <br>Baby Animal Farm?
-          </span>
+          <span class="under">What is PawPaw</span>
         </h3>
       </div>
       <div class="projectDeskR" data-aos="fade-left" data-aos-easing="ease">
         <div class="para">
           <div>
-            <p>
-              This web application is a childrens’ e-book for ages 7 - 10.
-              The story is three baby animals who have a different purpose visit a “Baby Animal Farm“. Through conversations with farm animals each of the three babies learn about different kind of animals' interesting facts. The setting is in animal farm, and the user
-              will choose they player character and get to go around the farm, talking and learning about
-              other animals. Later on when they all meet the animals and learn about the facts, users get
-              quizzed on what they’ve learned.
-            </p>
+            <p>PawPaw is a simple Q&A platform about pets. Users can ask about their pets and get answers from other users. This app is developed by React hooks, AWS and GraphQL.</p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="project_content yellowBG">
-      <div class="box" data-aos="fade-down-right" data-aos-easing="ease">
-        <img
-          src="/img/BabyAnimalFarm/convo.png"
-          alt="convo"
-          class="main_img"
-          style="box-shadow: 8px 10px 0px #ee815c;"
-        >
-        <p class="capture" style="text-align:center;">Conversation Scene</p>
-      </div>
-      <div class="box" data-aos="fade-down-left" data-aos-easing="ease" data-aos-delay="300">
-        <img
-          src="/img/BabyAnimalFarm/quiz.png"
-          alt="quiz"
-          class="main_img"
-          style="box-shadow: 8px 10px 0px #ee815c;"
-        >
-        <p class="capture" style="text-align:center;">Quiz Scene</p>
-      </div>
-    </div>
+    <hr class="border" data-aos="zoom-in-up" data-aos-easing="ease">
 
     <div class="projectDeskR-2 resp" data-aos="fade-left" data-aos-easing="ease">
       <h3 class="project_subtitle">
@@ -107,10 +79,7 @@
     <div class="project_content whiteBg">
       <div class="projectDeskL-2" data-aos="fade-right" data-aos-easing="ease">
         <div class="para">
-          <p>
-            Baby Animal Farm was the combined final project for 2 courses in my second term at BCIT.
-            As the lead developer for the project, I was responsible for coding the majority of the interactive childrens’ ebook's functionality. Along the way, I realized that to create a more intuitive user interface for children, after usability test, I had to design several UI elements and interactive functions.
-          </p>
+          <p>PawPaw is my personal project collaborating with another developer. For this app, the latest technologies, such as React Hooks, AWS, and GraphQL are used and I am struggling to understand those. Especially AWS and GraphQL are quite challnging and I need more deeply understanding about those. I'm spending a lot of time to acquire those.</p>
         </div>
       </div>
       <div class="projectDeskR-2 web" data-aos="fade-left" data-aos-easing="ease">
@@ -119,66 +88,6 @@
         </h3>
       </div>
     </div>
-
-    <div class="greenBg">
-      <h3
-        class="project_subtitle"
-        style="margin-top:10%;padding-top:5%;color: #fff;"
-        data-aos="zoom-in-up"
-        data-aos-easing="ease"
-      >PROCESS</h3>
-      <hr
-        class="border_short"
-        style="border: 2px solid #fdd23e;"
-        data-aos="zoom-in-up"
-        data-aos-easing="ease"
-      >
-      <div
-        class="project_content"
-        style="width:90%;max-width:1200px; margin-right:auto;margin-left:auto;"
-      >
-        <div class="box">
-          <img
-            src="/img/BabyAnimalFarm/Logo&Color.png"
-            alt="BabyAnimalFarm"
-            class="main_img Yshadow"
-            style="max-width: 400px"
-            data-aos="flip-left"
-            data-aos-easing="ease"
-          >
-          <p class="capture" style="text-align:center;">Logo & Color Pallete</p>
-          <img
-            src="/img/BabyAnimalFarm/logo_process.png"
-            alt="Pollways"
-            class="main_img Yshadow"
-            style="max-width: 450px"
-            data-aos="flip-left"
-            data-aos-easing="ease"
-          >
-          <p class="capture" style="text-align:center;">Logo Design Process</p>
-        </div>
-        <div class="box">
-          <img
-            src="/img/BabyAnimalFarm/originalDesign.png"
-            alt="taskmodel"
-            class="main_img Yshadow"
-            data-aos="flip-left"
-            data-aos-easing="ease"
-          >
-          <p class="capture" style="text-align:center;">Original Character Designs</p>
-          <img
-            src="/img/BabyAnimalFarm/Persona.png"
-            alt="taskmodel"
-            class="main_img Yshadow"
-            style="max-width: 400px;"
-            data-aos="flip-left"
-            data-aos-easing="ease"
-          >
-          <p class="capture" style="text-align:center;">User Persona</p>
-        </div>
-      </div>
-    </div>
-
     <Footer/>
   </section>
 </template>
@@ -219,10 +128,10 @@ export default {
 p {
   text-align: left;
 }
-.yellowBG {
-  padding-top: 5%;
+.border {
+  width: 300px;
+  border: 4px solid #fdd23e;
 }
-
 @media screen and (max-width: 834px) and (orientation: portrait) {
   .title_container {
     width: 250px;

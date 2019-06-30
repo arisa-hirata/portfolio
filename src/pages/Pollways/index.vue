@@ -63,7 +63,7 @@
         <div class="para">
           <div class="desc">
             <p>The application will allow users to post arguments which other users can agree, disagree, or comment on. It is a polling and debate app that helps to resolve debates between other users. It is an application for the person who always has to be right.</p>
-            <p>With a team of four, my role in Pollways was a Lead Developer. As a lead developer of the project, I was responsible for taking the mockups from the design team, and developing the UI/UX in React Native and Redux. I also worked with the other developer in implementing firebase. At the end of the term, we presented the project to our peers and a panel of industry representatives, and we competed with the other 9 teams throughh voting by industries and other grades, and our app was chosen as the second best app in this year.</p>
+            <p>With a team of four, my role in Pollways was a Lead Developer. As a lead developer of the project, I was responsible for taking the mockups from the design team, and developing the UI/UX in React Native and Redux. I also worked with the other developer in implementing firebase. At the end of the term, we presented the project to our peers and a panel of industry representatives, and we competed with the other 9 teams throughh voting by industries and other grades, and our app was chosen as one of the best app in this year.</p>
           </div>
         </div>
       </div>
