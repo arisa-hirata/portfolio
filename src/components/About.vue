@@ -25,10 +25,10 @@
             Hello, I am
             <span style="color: #14a79c;">Arisa</span>.
           </h3>
-          <p>I am a Front-end Developer & UI/UX Designer based in Vancouver. I was born and raised in Japan and moved to Vancouver in 2017.</p>
+          <p>I am a Front-end Developer based in Vancouver. I was born and raised in Japan and moved to Vancouver in 2017.</p>
           <p>I am passionate about converting issues and elevating to user-friendly interfaces to the next level. Also, I am actively seeking out to learn new technologies and current industry trends and improvements. This insatiable ambition gives me the advantage of staying ahead of the other competitors.</p>
 
-          <p>When I'm not working on coding or design, I enjoy eating a lot, sleeping well, dreaming to travel all over the world. Also, I am addicted to anime & manga, and watching baby emperor penguin video and photos.</p>
+          <p>When I'm not working on coding, I enjoy eating a lot, sleeping well, dreaming to travel all over the world. Also, I am addicted to anime & manga, and watching baby emperor penguin video and photos.</p>
         </div>
       </div>
 
@@ -91,9 +91,9 @@
           data-aos-delay="350"
         >
         <img
-          src="/img/icons/nuxt.svg"
+          src="/img/icons/aws.svg"
           class="skill_icons"
-          alt="nuxt"
+          alt="aws"
           data-aos="flip-left"
           data-aos-easing="ease"
           data-aos-delay="400"

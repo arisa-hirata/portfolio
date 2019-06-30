@@ -40,10 +40,10 @@
               </div>
 
               <div class="btn_container">
-                <a href="https://testflight.apple.com/join/vc9oVcJK">
+                <a href="https://testflight.apple.com/join/CF5m6t5H" target="_blank">
                   <div class="project_btn">Testflight</div>
                 </a>
-                <a href="https://github.com/arisa-hirata/pollways">
+                <a href="https://github.com/arisa-hirata/pollways" target="_blank">
                   <div class="project_btn">Github</div>
                 </a>
               </div>
@@ -82,18 +82,18 @@
         data-aos="zoom-in-up"
         data-aos-easing="ease"
       >
-      <iframe
+      <img
         class="tutorial"
+        src="/img/Pollways/tutorial.gif"
         width="560"
-        height="315"
-        src="https://www.youtube.com/embed/_oVEmJMrzpk"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        data-aos="flip-left"
+        alt="GIF"
+        border="0"
+        align="center"
+        hspace="10"
+        vspace="10"
+        data-aos="flip-up"
         data-aos-easing="ease"
-        data-aos-delay="300"
-      ></iframe>
+      >
     </div>
 
     <div class="projectDeskR-2 resp" data-aos="fade-left" data-aos-easing="ease">
@@ -182,8 +182,11 @@
         </h3>
         <h4>You can download the test-flight version of Pollways!</h4>
         <div class="btn_container">
-          <a href="https://testflight.apple.com/join/vc9oVcJK">
+          <a href="https://testflight.apple.com/join/CF5m6t5H" target="_blank">
             <div class="project_btn">Testflight</div>
+          </a>
+          <a href="https://github.com/arisa-hirata/pollways" target="_blank">
+            <div class="project_btn">Github</div>
           </a>
         </div>
       </div>
@@ -222,23 +225,21 @@ export default {
   background: #14a79c;
   border-radius: 2px;
 }
-
 .project_content {
   margin-bottom: 3%;
 }
-
 p {
   text-align: left;
 }
-
 .main_img {
   margin-top: -30px;
 }
-
+.tutorial {
+  border: 13px solid #14a79c;
+}
 .qrcode {
   width: 50%;
 }
-
 @media screen and (max-width: 834px) and (orientation: portrait) {
   .title_container {
     width: 150px;

@@ -44,10 +44,13 @@
                 </div>
               </div>
               <div class="btn_container">
-                <a href="https://arisa-hirata.github.io/babyanimalfarm/top/top.html">
+                <a
+                  href="https://arisa-hirata.github.io/babyanimalfarm/top/top.html"
+                  target="_blank"
+                >
                   <div class="project_btn">Play</div>
                 </a>
-                <a href="https://github.com/arisa-hirata/baby_animal_farm">
+                <a href="https://github.com/arisa-hirata/baby_animal_farm" target="_blank">
                   <div class="project_btn">Github</div>
                 </a>
               </div>

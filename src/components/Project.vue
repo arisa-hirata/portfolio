@@ -23,19 +23,19 @@
           >ALL</span>
           <span
             class="filter"
-            v-bind:class="{ active: currentFilter === 'Developlent' }"
-            v-on:click="setFilter('Developlent')"
-          >DEVELOPMENT</span>
+            v-bind:class="{ active: currentFilter === 'React/Vue' }"
+            v-on:click="setFilter('React/Vue')"
+          >React/Vue</span>
+          <span
+            class="filter"
+            v-bind:class="{ active: currentFilter === 'JavaScript' }"
+            v-on:click="setFilter('JavaScript')"
+          >JavaScript</span>
           <span
             class="filter"
             v-bind:class="{ active: currentFilter === 'UI/UX Design' }"
             v-on:click="setFilter('UI/UX Design')"
-          >UI/UX DESIGN</span>
-          <span
-            class="filter"
-            v-bind:class="{ active: currentFilter === 'Graphic Design' }"
-            v-on:click="setFilter('Graphic Design')"
-          >GRAPHIC DESIGN</span>
+          >UI/UX Design</span>
         </div>
       </div>
 
@@ -75,72 +75,44 @@ export default {
         {
           title: "Pollways",
           image: "/img/Filter_Pollways.png",
-          categories: ["Developlent"],
+          categories: ["React/Vue"],
           skill: "ReactNative + Firebase",
           link: "/Pollways"
         },
         {
-          title: "Baby Animal Farm",
-          image: "/img/Filter_BabyAnimalFarm.png",
-          categories: ["Developlent", "UI/UX Design", "Graphic Design"],
-          skill: "Pure JavaScript",
-          link: "/BabyAnimalFarm"
+          title: "VUI Development",
+          image: "/img/Filter_ReCollect.png",
+          categories: ["JavaScript"],
+          skill: "AWS Lambda + Node.JS",
+          link: "/ReCollect"
         },
         {
           title: "JAJA",
           image: "/img/Filter_JAJA.png",
-          categories: ["Developlent"],
+          categories: ["React/Vue"],
           skill: "Vue + Firebase",
           link: "/JAJA"
         },
         {
-          title: "NiceCream Factory",
-          image: "/img/Filter_NiceCreamFactory.png",
-          categories: ["Developlent", "UI/UX Design", "Graphic Design"],
-          skill: "HTML + CSS + jQuery",
-          link: "/NiceCreamFactory"
+          title: "PawPaw",
+          image: "/img/Filter_PawPaw.png",
+          categories: ["React/Vue", "UI/UX Design"],
+          skill: "React + AWS + GraphQL",
+          link: "/PawPaw"
+        },
+        {
+          title: "Baby Animal Farm",
+          image: "/img/Filter_BabyAnimalFarm.png",
+          categories: ["JavaScript", "UI/UX Design"],
+          skill: "Pure JavaScript",
+          link: "/BabyAnimalFarm"
         },
         {
           title: "Easter Ecard",
           image: "/img/Filter_EasterEcard.png",
-          categories: ["Developlent", "UI/UX Design", "Graphic Design"],
+          categories: ["JavaScript", "UI/UX Design"],
           skill: "Pure Javascript",
           link: "/Ecard"
-        },
-        {
-          title: "Hot Spring Seekers",
-          image: "/img/Filter_HotSpring.png",
-          categories: ["Developlent", "UI/UX Design"],
-          skill: "WordPress",
-          link: "/HotSpringSeekers"
-        },
-        {
-          title: "Infographic",
-          image: "/img/Infographic.png",
-          categories: ["Graphic Design"],
-          skill: "Illustrator",
-          link: "/Infographic"
-        },
-        {
-          title: "My Iconic World",
-          image: "/img/Filter_iconicWorld.png",
-          categories: ["Graphic Design"],
-          skill: "Illustrator",
-          link: "/IconicWorld"
-        },
-        {
-          title: "Shoepaca Poster",
-          image: "/img/Filter_shoepaca.png",
-          categories: ["Graphic Design"],
-          skill: "Photoshop",
-          link: "/Shoepaca"
-        },
-        {
-          title: "Galaxy Kirby Cafe",
-          image: "/img/KirbyCafe.png",
-          categories: ["Graphic Design"],
-          skill: "Photoshop",
-          link: "/GalaxyKirbyCafe"
         }
       ]
     };
@@ -173,27 +145,23 @@ export default {
 #id {
   max-width: 1200px;
 }
-
 .title-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
 .title {
   font-size: 30pt;
   font-weight: normal;
 }
-
 .project-title {
   font-size: 16pt;
 }
-
 .filters {
   margin: 5% 0 2% 0;
+  font-weight: 700;
 }
-
 .filter {
   padding: 10px 15px;
   cursor: pointer;
@@ -203,40 +171,34 @@ export default {
   font-size: 1.1em;
   margin: 10px;
 }
-
 .filter.active {
   box-shadow: 0px 1px 3px 0px #00000026;
   background-color: #fdd23e;
   color: white;
 }
-
 .filter:hover {
   background: #dbdbdb;
 }
-
 .projects_container {
   background-color: #f2f2f3;
   padding: 5% 0;
   margin-top: 10px;
 }
-
 .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 90%;
+  width: 100%;
   max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
   transition: 1.5s all ease-in-out;
   transition-delay: 0.7s;
 }
-
 .projects-enter {
   transform: scale(0.5) translatey(-80px);
   opacity: 0;
 }
-
 .projects-leave-to {
   transform: translatey(30px);
   opacity: 0;
@@ -252,7 +214,6 @@ export default {
   font-size: 1.7em;
   letter-spacing: 0.03em;
 }
-
 .skill {
   color: #575754;
   z-index: 900;
@@ -264,30 +225,12 @@ export default {
   right: 0;
   margin: auto;
 }
-
-.coming_soon {
-  position: absolute;
-  top: 100px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  font-weight: bold;
-  color: #df744a;
-  font-size: 2em;
-  transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  -webkit-transform: rotate(-10deg);
-  text-shadow: 1px 2px 7px rgba(0, 0, 0, 0.7);
-}
-
 .project {
   transition: all 0.35s ease-in-out;
-  margin: 20px 30px;
+  margin: 20px 20px;
   box-shadow: 0px 2px 8px #dbdbdb;
   border-radius: 3px;
   width: 350px;
-  max-width: 400px;
-  min-width: 300px;
   height: 350px;
   display: flex;
   flex-direction: column;
@@ -295,7 +238,6 @@ export default {
   overflow: hidden;
   background-color: #fff;
 }
-
 .project:hover {
   -webkit-transform: translateY(-10px);
   -ms-transform: translateY(-10px);
@@ -304,7 +246,6 @@ export default {
   box-shadow: 0px 12px 8px #dbdbdb;
   opacity: 1;
 }
-
 .project:active {
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
@@ -312,11 +253,9 @@ export default {
   transition: 0.1s;
   box-shadow: 0px 2px 8px #dbdbdb;
 }
-
 .project-image-wrapper {
   position: relative;
 }
-
 .project-image {
   width: 100%;
   border-top-left-radius: 3px;
@@ -324,14 +263,12 @@ export default {
   border-bottom: 4px solid #ee815c;
   margin-bottom: 15px;
 }
-
 @media screen and (max-width: 834px) and (orientation: portrait) {
   .filter {
     font-size: 1em;
     margin: 0;
   }
 }
-
 @media screen and (max-width: 480px) and (orientation: portrait) {
   .filter {
     font-size: 3vw;

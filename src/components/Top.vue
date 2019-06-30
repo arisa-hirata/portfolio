@@ -19,9 +19,9 @@
           </svg>
         </div>
 
-        <h1 class="secondly">Front-End Developer & UI/UX Designer</h1>
+        <h1 class="secondly">Front-End Developer</h1>
         <!-- <div class="btn">View my work</div> -->
-        <a href="#" v-scroll-to="'#about'" class="btn">View my work</a>
+        <a href="#" v-scroll-to="'#project'" class="btn">View my work</a>
       </div>
     </div>
   </section>

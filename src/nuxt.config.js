@@ -7,8 +7,7 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    title:
-      'Arisa Hirata Front-end Developer & UI UX Designer, BCIT D3 Portfolio',
+    title: 'Arisa Hirata Front-end Developer, Portfolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -16,12 +15,12 @@ module.exports = {
       {
         name: 'description',
         content:
-          'With experience in front-end development and UI/UX design, I’m looking to become a front-end developer and UI/UX designer who uses modern technology, such as React and other JavaScript framework to make user friendly world changing applications to help society.'
+          'With experience in front-end development, I’m looking to become a front-end developer who uses modern technology, such as React and other JavaScript framework to make user friendly world changing applications to help society.'
       },
       {
         name: 'keyword',
         content:
-          'Arisa Hirata, arisahirata, developer, web developer front-end developer, designer UI UX designer, character design, graphic design, pirata, BCIT, D3, portfolio'
+          'Arisa Hirata, arisahirata, developer, software developer, web developer, arisa, hirata, Vancouver web developer, React, Vue, JavaScript, front-end developer, front end engineer, software engineer, designer UI UX designer, penguin, pirata, BCIT, D3, portfolio, 2019'
       },
       {
         name: 'author',
@@ -55,7 +54,7 @@ module.exports = {
    ** Build configuration
    */
   build: {
-    publicPath: '/',
+    // publicPath: '/',
     /*
      ** You can extend webpack config here
      */

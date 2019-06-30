@@ -33,7 +33,7 @@
             </svg>
           </div>
         </a>
-        <a href="https://www.linkedin.com/in/arisa-hirata-66b25714b/">
+        <a href="https://www.linkedin.com/in/arisa-hirata-66b25714b/" target="_blank">
           <div class="icons" data-aos="flip-left" data-aos-delay="100">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 99.4 99.8">
               <path
@@ -43,7 +43,7 @@
             </svg>
           </div>
         </a>
-        <a href="https://github.com/arisa-hirata">
+        <a href="https://github.com/arisa-hirata" target="_blank">
           <div class="icons" data-aos="flip-left" data-aos-delay="50">
             <svg id="Layer_1" class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
               <style>
@@ -60,7 +60,7 @@
             </svg>
           </div>
         </a>
-        <a href="https://www.instagram.com/arisa_pirata/">
+        <a href="https://www.instagram.com/arisa_pirata/" target="_blank">
           <div class="icons" data-aos="flip-left">
             <svg
               id="Layer_1"
