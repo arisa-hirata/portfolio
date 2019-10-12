@@ -58,7 +58,7 @@
       <div class="projectDeskR" data-aos="fade-left" data-aos-easing="ease">
         <div class="para">
           <div>
-            <p>I worked at ReCollect Systems Inc. to develop features for Amazon Alexa and Google Home products, which integrate with the REST APIs. Recently, they shift their version to Alexa SDK v2 from v1 and gaction-sdk v2 from v1, so I tried to migrate to both v2 versions. Also, Tested exists Alexa functions used Mocha & Chai and I learned the importance of Tdd and CI for projects.</p>
+            <p>I worked at ReCollect Systems Inc. to develop features for Amazon Alexa and Google Home products, which integrate with the REST APIs. Recently, they shift their version to Alexa SDK v2 from v1 and gaction-sdk v2 from v1, so I tried to migrate to both v2 versions. Also, tested exists Alexa functions used Mocha & Chai and learned the importance of Tdd and CI for development.</p>
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@
     <div class="project_content whiteBg">
       <div class="projectDeskL-2" data-aos="fade-right" data-aos-easing="ease">
         <div class="para">
-          <p>This project was the first time working at the company as a developer. Although I learned a lot of things at my school, the “real job” was totally different from school projects. Always I kept in my mind “clear and clean code” because in the company, usually, employees need to integrate their code with other peers. In addition, it was my first-time remote work. Remote work is sometimes quite hard to effectively communicate with other peers. However, I always kept in my mind “the most important thing for developers is communication”, so I positively contacted other co-workers to share current circumstances and know each other.</p>
+          <p>This project was the first time working at the company as a developer. Although I learned a lot of things at my school, the “real job” was totally different from school projects. Repeatedly I considered “clear and clean code” to integrate the code with other developers. In addition, it was my first-time remote work. Remote work is sometimes quite hard to effectively communicate with other peers. However, I always kept in my mind “the most important thing for developers is communication”, so I positively contacted other co-workers to share current circumstances and know each other.</p>
         </div>
       </div>
       <div class="projectDeskR-2 web" data-aos="fade-left" data-aos-easing="ease">

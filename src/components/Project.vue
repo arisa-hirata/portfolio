@@ -80,11 +80,11 @@ export default {
           link: "/Pollways"
         },
         {
-          title: "VUI Development",
-          image: "/img/Filter_ReCollect.png",
-          categories: ["JavaScript"],
-          skill: "AWS Lambda + Node.JS",
-          link: "/ReCollect"
+          title: "PawPaw",
+          image: "/img/Filter_PawPaw.png",
+          categories: ["React/Vue", "UI/UX Design"],
+          skill: "React Hooks + GraphQL",
+          link: "/PawPaw"
         },
         {
           title: "JAJA",
@@ -94,11 +94,11 @@ export default {
           link: "/JAJA"
         },
         {
-          title: "PawPaw",
-          image: "/img/Filter_PawPaw.png",
-          categories: ["React/Vue", "UI/UX Design"],
-          skill: "React + AWS + GraphQL",
-          link: "/PawPaw"
+          title: "VUI Development",
+          image: "/img/Filter_ReCollect.png",
+          categories: ["JavaScript"],
+          skill: "AWS Lambda + Node.JS",
+          link: "/ReCollect"
         },
         {
           title: "Baby Animal Farm",

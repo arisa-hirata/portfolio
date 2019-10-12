@@ -50,7 +50,7 @@
                 >
                   <div class="project_btn">Play</div>
                 </a>
-                <a href="https://github.com/arisa-hirata/baby_animal_farm" target="_blank">
+                <a href="https://github.com/arisa-hirata/babyanimalfarm" target="_blank">
                   <div class="project_btn">Github</div>
                 </a>
               </div>

@@ -163,6 +163,7 @@
           data-aos-delay="800"
         >
       </div>
+      <div class="empty_box"></div>
     </div>
   </section>
 </template>
@@ -203,7 +204,6 @@ export default {};
   margin-top: 5%;
   margin-right: auto;
   margin-left: auto;
-  /* border-radius: 50%; */
   box-shadow: 5px 8px 0px #fdd23e;
 }
 
@@ -262,9 +262,7 @@ export default {};
 .skills_container {
   border-top: 8px solid #fdd23e;
   width: 80%;
-  max-width: 1000px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   line-height: 0.8em;
   display: flex;
   flex-wrap: wrap;
@@ -273,7 +271,6 @@ export default {};
   border-radius: 8px;
   box-shadow: 0px 2px 8px #dbdbdb;
   padding: 10px 0;
-  margin-bottom: 70px;
 }
 
 .skills_container div {
@@ -289,6 +286,10 @@ export default {};
   width: 70px;
   height: 70px;
   margin: 20px;
+}
+
+.empty_box {
+  height: 70px;
 }
 
 @media screen and (max-width: 834px) and (orientation: portrait) {
