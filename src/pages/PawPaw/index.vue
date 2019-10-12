@@ -35,13 +35,13 @@
                 <div class="details_right">
                   <p>Full Stack Developer / UI&UX Designer</p>
                   <p>Personal Project</p>
-                  <p>June 2019 - Present</p>
-                  <p>React Hooks / AWS / GraphQL</p>
+                  <p>September 2019 - Present</p>
+                  <p>React Hooks / Firebase / GraphQL / Jest / Illustrator / Photoshop</p>
                 </div>
               </div>
               <div class="btn_container">
-                <a href>
-                  <div class="project_btn" v-on:click="visitLink">Website</div>
+                <a href="https://pawpaw-clothing.herokuapp.com" target="_blank">
+                  <div class="project_btn">Website</div>
                 </a>
                 <a href="https://github.com/arisa-hirata/pawpaw" target="_blank">
                   <div class="project_btn">Github</div>
@@ -62,12 +62,25 @@
       <div class="projectDeskR" data-aos="fade-left" data-aos-easing="ease">
         <div class="para">
           <div>
-            <p>PawPaw is a simple Q&A platform about pets. Users can ask about their pets and get answers from other users. This app is developed by React hooks, AWS and GraphQL.</p>
+            <p>
+              This is a fictional e-commerce website for the person who wants to give nice clothes for your family members having paws🐶🐱 This app is developed by React.js. Although this is still under constructing, it will be migrated to React Hooks, and utilized GraphQL. Also improving website performance, it will be tested by Jest.
+              <br>
+              <br>
+              <i>***In PawPaw, you can check out, but this is a fictional website, so in the payment process, please use test credit card number which is given in this website.</i>
+            </p>
           </div>
         </div>
       </div>
     </div>
 
+    <hr class="border" data-aos="zoom-in-up" data-aos-easing="ease">
+    <img
+      src="/img/PawPaw/PawPawLogo.svg"
+      alt="PawPaw Logo"
+      class="pawpaw_logo"
+      data-aos="zoom-in-up"
+      data-aos-easing="ease"
+    >
     <hr class="border" data-aos="zoom-in-up" data-aos-easing="ease">
 
     <div class="projectDeskR-2 resp" data-aos="fade-left" data-aos-easing="ease">
@@ -79,7 +92,7 @@
     <div class="project_content whiteBg">
       <div class="projectDeskL-2" data-aos="fade-right" data-aos-easing="ease">
         <div class="para">
-          <p>PawPaw is my personal project collaborating with another developer. For this app, the latest technologies, such as React Hooks, AWS, and GraphQL are used and I am struggling to understand those. Especially AWS and GraphQL are quite challnging and I need more deeply understanding about those. I'm spending a lot of time to acquire those.</p>
+          <p>This project's purpose is improving the web site performances to create a next-level app as well as learning new technologies. Also, I've been keeping in my mind "clean code" when I develop this app.</p>
         </div>
       </div>
       <div class="projectDeskR-2 web" data-aos="fade-left" data-aos-easing="ease">
@@ -100,13 +113,6 @@ export default {
   components: {
     Header2,
     Footer
-  },
-  methods: {
-    visitLink: function() {
-      alert(
-        "Thank you for interested in PawPaw! PawPaw is still under construction. It'll be launched soon!"
-      );
-    }
   }
 };
 </script>
@@ -129,8 +135,12 @@ p {
   text-align: left;
 }
 .border {
-  width: 300px;
+  width: 80%;
   border: 4px solid #fdd23e;
+}
+.pawpaw_logo {
+  max-width: 600px;
+  margin: 30px auto;
 }
 @media screen and (max-width: 834px) and (orientation: portrait) {
   .title_container {
