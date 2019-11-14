@@ -73,13 +73,6 @@ export default {
       currentFilter: "ALL",
       projects: [
         {
-          title: "Pollways",
-          image: "/img/Filter_Pollways.png",
-          categories: ["React/Vue"],
-          skill: "ReactNative + Firebase",
-          link: "/Pollways"
-        },
-        {
           title: "PawPaw",
           image: "/img/Filter_PawPaw.png",
           categories: ["React/Vue", "UI/UX Design"],
@@ -87,11 +80,11 @@ export default {
           link: "/PawPaw"
         },
         {
-          title: "JAJA",
-          image: "/img/Filter_JAJA.png",
-          categories: ["React/Vue"],
-          skill: "Vue + Firebase",
-          link: "/JAJA"
+          title: "Pokédex",
+          image: "/img/Filter_Pokedex.png",
+          categories: ["React/Vue", "UI/UX Design"],
+          skill: "React +  PokéAPI",
+          link: "/Pokedex"
         },
         {
           title: "VUI Development",
@@ -101,18 +94,25 @@ export default {
           link: "/ReCollect"
         },
         {
+          title: "Pollways",
+          image: "/img/Filter_Pollways.png",
+          categories: ["React/Vue"],
+          skill: "ReactNative + Firebase",
+          link: "/Pollways"
+        },
+        {
+          title: "JAJA",
+          image: "/img/Filter_JAJA.png",
+          categories: ["React/Vue"],
+          skill: "Vue + Firebase",
+          link: "/JAJA"
+        },
+        {
           title: "Baby Animal Farm",
           image: "/img/Filter_BabyAnimalFarm.png",
           categories: ["JavaScript", "UI/UX Design"],
-          skill: "Pure JavaScript",
+          skill: "Vanilla JavaScript",
           link: "/BabyAnimalFarm"
-        },
-        {
-          title: "Easter Ecard",
-          image: "/img/Filter_EasterEcard.png",
-          categories: ["JavaScript", "UI/UX Design"],
-          skill: "Pure Javascript",
-          link: "/Ecard"
         }
       ]
     };

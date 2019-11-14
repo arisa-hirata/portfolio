@@ -35,7 +35,7 @@
                 <div class="details_right">
                   <p>Full Stack Developer / UI&UX Designer</p>
                   <p>Personal Project</p>
-                  <p>September 2019 - Present</p>
+                  <p>September - October 2019</p>
                   <p>React Hooks / Firebase / GraphQL / Jest / Illustrator / Photoshop</p>
                 </div>
               </div>
@@ -73,15 +73,32 @@
       </div>
     </div>
 
-    <hr class="border" data-aos="zoom-in-up" data-aos-easing="ease">
-    <img
-      src="/img/PawPaw/PawPawLogo.svg"
-      alt="PawPaw Logo"
-      class="pawpaw_logo"
-      data-aos="zoom-in-up"
-      data-aos-easing="ease"
-    >
-    <hr class="border" data-aos="zoom-in-up" data-aos-easing="ease">
+    <div class="tutorial_container yellowBG">
+      <h3
+        class="project_subtitle"
+        style="color:#fff;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >Pokédex DEMO</h3>
+      <hr
+        class="border_short"
+        style="border: 2px solid #ee815c;"
+        data-aos="zoom-in-up"
+        data-aos-easing="ease"
+      >
+      <img
+        class="tutorial"
+        src="/img/PawPaw/paw_demo.gif"
+        width="560"
+        alt="GIF"
+        border="0"
+        align="center"
+        hspace="10"
+        vspace="10"
+        data-aos="flip-up"
+        data-aos-easing="ease"
+      >
+    </div>
 
     <div class="projectDeskR-2 resp" data-aos="fade-left" data-aos-easing="ease">
       <h3 class="project_subtitle">
@@ -141,6 +158,9 @@ p {
 .pawpaw_logo {
   max-width: 600px;
   margin: 30px auto;
+}
+.tutorial {
+  border: 13px solid #14a79c;
 }
 @media screen and (max-width: 834px) and (orientation: portrait) {
   .title_container {
