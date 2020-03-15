@@ -1470,9 +1470,9 @@ acorn-dynamic-import@^4.0.0:
   integrity sha512-d3OEjQV4ROpoflsnUA8HozoIR504TFxNivYEUi6uwz0IYhBkTDXGuWlNdMtybRt3nqVx/L6XqMt0FxkXuWKZhw==
 
 acorn@^5.7.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.5:
   version "6.1.0"
@@ -7898,6 +7898,11 @@ vue-router@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.2.tgz#dedc67afe6c4e2bc25682c8b1c2a8c0d7c7e56be"
   integrity sha512-opKtsxjp9eOcFWdp6xLQPLmRGgfM932Tl56U9chYTnoWqKxQ8M20N7AkdEbM5beUh6wICoFGYugAX9vQjyJLFg==
+
+vue-scroll@^2.1.9:
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/vue-scroll/-/vue-scroll-2.1.13.tgz#43e29f43fd64d52ff2856877c2d0c5b0f6433188"
+  integrity sha512-GQnDA1UcFSdmL2Gjo/3+0jlOwvRvSpdzl+q+vOtQsAjb+uQDo8UG1RKxyoQ1lkJCz5uM8OSqb/6+L3LBqInk2w==
 
 vue-scrollto@^2.13.0:
   version "2.13.0"
