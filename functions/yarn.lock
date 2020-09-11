@@ -5228,9 +5228,9 @@ no-case@^2.2.0:
     lower-case "^1.1.1"
 
 node-fetch@^2.2.0, node-fetch@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
-  integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-forge@0.7.4:
   version "0.7.4"
@@ -7898,6 +7898,11 @@ vue-router@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.2.tgz#dedc67afe6c4e2bc25682c8b1c2a8c0d7c7e56be"
   integrity sha512-opKtsxjp9eOcFWdp6xLQPLmRGgfM932Tl56U9chYTnoWqKxQ8M20N7AkdEbM5beUh6wICoFGYugAX9vQjyJLFg==
+
+vue-scroll@^2.1.9:
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/vue-scroll/-/vue-scroll-2.1.13.tgz#43e29f43fd64d52ff2856877c2d0c5b0f6433188"
+  integrity sha512-GQnDA1UcFSdmL2Gjo/3+0jlOwvRvSpdzl+q+vOtQsAjb+uQDo8UG1RKxyoQ1lkJCz5uM8OSqb/6+L3LBqInk2w==
 
 vue-scrollto@^2.13.0:
   version "2.13.0"
